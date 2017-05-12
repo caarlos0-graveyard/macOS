@@ -11,7 +11,9 @@ How I setup a new Mac.
 ## 2. Install deps
 
 ```console
-brew bundle <( curl -fsSL https://raw.githubusercontent.com/caarlos0/mac/master/Brewfile )
+git clone https://github.com/caarlos0/mac.git
+cd mac
+brew bundle
 ```
 
 ## 3. Install dotfiles
@@ -23,12 +25,22 @@ cd ~/.dotfiles
 zsh
 ```
 
-## 4. Reboot
+## 4. Setup SSH keys
+
+Create a new SSH key or copy the previous one into `~/.ssh`. That should be
+it.
+
+## 5. Setup GPG signing
+
+Follow [this tutorial](https://github.com/pstadler/keybase-gpg-github)
+and you should be fine.
+
+## 6. Reboot
 
 ```console
 reboot
 ```
 
-## 5. Profit!
+## 7. Profit!
 
 :beers:
