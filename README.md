@@ -38,7 +38,7 @@ and you should be fine.
 ## 6. Reboot
 
 ```console
-reboot
+sudo reboot
 ```
 
 ## 7. Profit!
