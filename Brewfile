@@ -65,6 +65,7 @@ brew 'zsh'
 
 # casks
 cask 'appcleaner'
+cask 'authy-desktop'
 cask 'beamer'
 cask 'betterzipql'
 cask 'docker'
