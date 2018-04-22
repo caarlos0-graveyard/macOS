@@ -23,6 +23,12 @@ git clone https://github.com/caarlos0/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ./script/bootstrap
 zsh
+``` 
+
+Not so-sensible defaults:
+
+```console
+./macos/set-defaults
 ```
 
 ## 4. Setup SSH keys
