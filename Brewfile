@@ -1,18 +1,17 @@
-tap "qvl/tap"
 tap "caarlos0/tap"
-tap "heroku/brew"
+tap "chef/chef"
 tap "getantibody/tap"
-tap "homebrew/core"
-tap "homebrew/bundle"
-tap "homebrew/services"
-tap "goreleaser/tap"
 tap "go-delve/delve"
-tap "caskroom/fonts"
-tap "caskroom/versions"
-tap "caskroom/cask"
-tap "wata727/tflint"
-tap "valelint/vale"
+tap "goreleaser/tap"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
 tap "neovim/neovim"
+tap "valelint/vale"
 cask "java"
 # CLI tool for working with Architecture Decision Records
 brew "adr-tools"
@@ -30,14 +29,14 @@ brew "curl"
 brew "dep"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
-# Modern replacement for 'ls'
-brew "exa"
-# Simple, fast and user-friendly alternative to find
-brew "fd"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
+# Cleans up old and inactive forks on your GitHub account
+brew "fork-cleaner"
+# Scriptable ping program for checking if multiple hosts are up
+brew "fping"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GNU awk utility
@@ -62,8 +61,6 @@ brew "gnupg"
 brew "gpg-agent"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
-# Add GitHub support to git on the command-line
-brew "hub"
 # Configurable static site generator
 brew "hugo"
 # Tools and libraries to manipulate images in many formats
@@ -76,6 +73,8 @@ brew "jemalloc"
 brew "jq"
 # Production Grade K8s Installation, Upgrades, and Management
 brew "kops"
+# Tool that can switch between kubectl contexts easily and create aliases
+brew "kubectx"
 # The Kubernetes package manager
 brew "kubernetes-helm"
 # YAML Parser
@@ -96,12 +95,12 @@ brew "nmap"
 brew "pinentry-mac"
 # Show ps output as a tree
 brew "pstree"
+# Python version management
+brew "pyenv"
 # Ruby version manager
 brew "rbenv"
 # Persistent key-value database, with built-in net interface
 brew "redis"
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
 # Standard unix software packaging tool
 brew "rpm"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -128,8 +127,6 @@ brew "vim"
 brew "watch"
 # Internet file retriever
 brew "wget"
-# HTTP benchmarking tool
-brew "wrk"
 # JavaScript package manager
 brew "yarn"
 # UNIX shell (command interpreter)
@@ -137,7 +134,9 @@ brew "zsh"
 # Clone all repos of a github organization
 brew "caarlos0/tap/clone-org"
 # 
-brew "caarlos0/tap/fork-cleaner"
+brew "caarlos0/tap/karmahub"
+# 
+brew "caarlos0/tap/org-stats"
 # The fastest shell plugin manager
 brew "getantibody/tap/antibody"
 # Everything you need to get started with Heroku
@@ -145,17 +144,26 @@ brew "heroku/brew/heroku"
 # A customizable, syntax-aware linter for prose.
 brew "valelint/vale/vale"
 cask "appcleaner"
+cask "authy"
+cask "beamer"
 cask "caffeine"
 cask "couchbase-server-community"
 cask "discord"
 cask "disk-inventory-x"
 cask "docker"
+cask "font-anonymous-pro"
+cask "font-firacode-nerd-font"
+cask "font-firacode-nerd-font-mono"
 cask "gas-mask"
 cask "google-chrome"
+cask "google-cloud-sdk"
 cask "intellij-idea-ce"
+cask "iterm2-beta"
+cask "java8"
 cask "keybase"
 cask "kindle"
 cask "lastpass"
+cask "ngrok"
 cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
@@ -163,18 +171,16 @@ cask "qlprettypatch"
 cask "qlstephen"
 cask "quicklook-csv"
 cask "quicklook-json"
-cask "skype"
 cask "slack"
-cask "spectacle"
+cask "slate"
 cask "spotify"
+cask "subtitles"
 cask "suspicious-package"
 cask "telegram"
+cask "transmission"
 cask "vagrant"
 cask "visual-studio-code"
 cask "vlc"
 cask "webpquicklook"
 cask "whatsapp"
-cask "caskroom/fonts/font-anonymous-pro"
-cask "caskroom/fonts/font-firacode-nerd-font"
-cask "caskroom/fonts/font-firacode-nerd-font-mono"
-cask "caskroom/versions/iterm2-beta"
+cask "chef/chef/chefdk"
