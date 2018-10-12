@@ -101,6 +101,8 @@ brew "pyenv"
 brew "rbenv"
 # Persistent key-value database, with built-in net interface
 brew "redis"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Standard unix software packaging tool
 brew "rpm"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -127,15 +129,19 @@ brew "vim"
 brew "watch"
 # Internet file retriever
 brew "wget"
+# Binary diff, differential compression tools
+brew "xdelta"
 # JavaScript package manager
 brew "yarn"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Clone all repos of a github organization
 brew "caarlos0/tap/clone-org"
 # 
 brew "caarlos0/tap/karmahub"
-# 
+# Get the contributor stats summary from all repos of any given organization
 brew "caarlos0/tap/org-stats"
 # The fastest shell plugin manager
 brew "getantibody/tap/antibody"
@@ -143,14 +149,15 @@ brew "getantibody/tap/antibody"
 brew "heroku/brew/heroku"
 # A customizable, syntax-aware linter for prose.
 brew "valelint/vale/vale"
+cask "1password"
 cask "appcleaner"
 cask "authy"
 cask "beamer"
-cask "caffeine"
 cask "couchbase-server-community"
 cask "discord"
 cask "disk-inventory-x"
 cask "docker"
+cask "firefox"
 cask "font-anonymous-pro"
 cask "font-firacode-nerd-font"
 cask "font-firacode-nerd-font-mono"
@@ -160,6 +167,7 @@ cask "google-cloud-sdk"
 cask "intellij-idea-ce"
 cask "iterm2-beta"
 cask "java8"
+cask "keepingyouawake"
 cask "keybase"
 cask "kindle"
 cask "lastpass"
