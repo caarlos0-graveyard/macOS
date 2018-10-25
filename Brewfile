@@ -71,6 +71,8 @@ brew "ipcalc"
 brew "jemalloc"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Domain specific configuration language for defining JSON data
+brew "jsonnet"
 # Production Grade K8s Installation, Upgrades, and Management
 brew "kops"
 # Tool that can switch between kubectl contexts easily and create aliases
@@ -93,6 +95,8 @@ brew "neovim"
 brew "nmap"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Service monitoring system and time series database
+brew "prometheus"
 # Show ps output as a tree
 brew "pstree"
 # Python version management
@@ -187,6 +191,7 @@ cask "suspicious-package"
 cask "telegram"
 cask "transmission"
 cask "vagrant"
+cask "viscosity"
 cask "visual-studio-code"
 cask "vlc"
 cask "webpquicklook"
