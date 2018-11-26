@@ -15,6 +15,8 @@ tap "valelint/vale"
 cask "java"
 # CLI tool for working with Architecture Decision Records
 brew "adr-tools"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # Record and share terminal sessions
 brew "asciinema"
 # Official Amazon AWS command-line interface
@@ -93,6 +95,8 @@ brew "ncdu"
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
+# Tool for creating identical machine images for multiple platforms
+brew "packer"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Service monitoring system and time series database
@@ -143,10 +147,14 @@ brew "youtube-dl"
 brew "zsh"
 # Clone all repos of a github organization
 brew "caarlos0/tap/clone-org"
+# Like gofmt, but for JSON files
+brew "caarlos0/tap/jsonfmt"
 # 
 brew "caarlos0/tap/karmahub"
 # Get the contributor stats summary from all repos of any given organization
 brew "caarlos0/tap/org-stats"
+# 
+brew "caarlos0/tap/svu"
 # The fastest shell plugin manager
 brew "getantibody/tap/antibody"
 # Everything you need to get started with Heroku
@@ -155,13 +163,12 @@ brew "heroku/brew/heroku"
 brew "valelint/vale/vale"
 cask "1password"
 cask "appcleaner"
-cask "authy"
 cask "beamer"
 cask "couchbase-server-community"
 cask "discord"
 cask "disk-inventory-x"
 cask "docker"
-cask "firefox"
+cask "fantastical"
 cask "font-anonymous-pro"
 cask "font-firacode-nerd-font"
 cask "font-firacode-nerd-font-mono"
@@ -191,6 +198,7 @@ cask "suspicious-package"
 cask "telegram"
 cask "transmission"
 cask "vagrant"
+cask "vanilla"
 cask "viscosity"
 cask "visual-studio-code"
 cask "vlc"
