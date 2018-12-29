@@ -41,6 +41,8 @@ brew "fork-cleaner"
 brew "fping"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext", link: true
 # GNU awk utility
 brew "gawk"
 # GNU debugger
@@ -113,6 +115,8 @@ brew "redis"
 brew "ripgrep"
 # Standard unix software packaging tool
 brew "rpm"
+# The Rust toolchain installer
+brew "rustup-init"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Package any app for every Linux desktop, server, cloud or device
@@ -162,8 +166,8 @@ brew "heroku/brew/heroku"
 # A customizable, syntax-aware linter for prose.
 brew "valelint/vale/vale"
 cask "1password"
+cask "airflow"
 cask "appcleaner"
-cask "beamer"
 cask "couchbase-server-community"
 cask "discord"
 cask "disk-inventory-x"
@@ -190,6 +194,7 @@ cask "qlprettypatch"
 cask "qlstephen"
 cask "quicklook-csv"
 cask "quicklook-json"
+cask "skype"
 cask "slack"
 cask "slate"
 cask "spotify"
