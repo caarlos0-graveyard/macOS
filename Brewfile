@@ -23,6 +23,8 @@ brew "asciinema"
 brew "aws-iam-authenticator"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext", link: true
 # Statistics utility to count lines of code
@@ -47,8 +49,6 @@ brew "ffmpeg"
 brew "findutils"
 # Cleans up old and inactive forks on your GitHub account
 brew "fork-cleaner"
-# Scriptable ping program for checking if multiple hosts are up
-brew "fping"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GNU awk utility
@@ -87,8 +87,8 @@ brew "jemalloc"
 brew "jq"
 # Domain specific configuration language for defining JSON data
 brew "jsonnet"
-# Production Grade K8s Installation, Upgrades, and Management
-brew "kops"
+# Little helper to run Rancher Lab's k3s in Docker
+brew "k3d"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
 # The Kubernetes package manager
@@ -97,8 +97,6 @@ brew "kubernetes-helm"
 brew "libyaml"
 # Java-based project management
 brew "maven"
-# Scalable distributed version control system
-brew "mercurial"
 # Library for a binary-based efficient data interchange format
 brew "msgpack"
 # NCurses Disk Usage
@@ -141,8 +139,6 @@ brew "telnet"
 brew "terraform"
 # Simplified and community-driven man pages
 brew "tldr"
-# Command-line client for Travis CI
-brew "travis"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Extract, view, and test RAR archives
@@ -155,12 +151,8 @@ brew "vim"
 brew "watch"
 # Internet file retriever
 brew "wget"
-# Binary diff, differential compression tools
-brew "xdelta"
 # JavaScript package manager
 brew "yarn"
-# Download YouTube videos from the command-line
-brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Clone all repos of a github organization
@@ -169,8 +161,6 @@ brew "caarlos0/tap/clone-org"
 brew "caarlos0/tap/gssh"
 # Like gofmt, but for JSON files
 brew "caarlos0/tap/jsonfmt"
-# Little helper to run Rancher Lab's k3s in Docker
-brew "caarlos0/tap/k3d"
 # 
 brew "caarlos0/tap/karmahub"
 # Get the contributor stats summary from all repos of any given organization
@@ -181,22 +171,16 @@ brew "caarlos0/tap/svu"
 brew "getantibody/tap/antibody"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
-# Run GitHub Actions locally
-brew "nektos/tap/act"
 # A customizable, syntax-aware linter for prose.
 brew "valelint/vale/vale"
 cask "1password"
 cask "airflow"
 cask "appcleaner"
-cask "couchbase-server-community"
+cask "brave-browser"
 cask "discord"
-cask "disk-inventory-x"
 cask "docker"
-cask "fantastical"
-cask "font-anonymous-pro"
-cask "font-firacode-nerd-font"
-cask "font-firacode-nerd-font-mono"
-cask "google-chrome"
+cask "figma"
+cask "font-source-code-pro"
 cask "google-cloud-sdk"
 cask "intellij-idea-ce"
 cask "iterm2-beta"
@@ -219,7 +203,7 @@ cask "quicklook-csv"
 cask "quicklook-json"
 cask "skype"
 cask "slack"
-cask "slate"
+cask "spectacle"
 cask "spotify"
 cask "steam"
 cask "subtitles"
