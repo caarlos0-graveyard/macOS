@@ -2,6 +2,7 @@ tap "caarlos0/tap"
 tap "chef/chef"
 tap "getantibody/tap"
 tap "go-delve/delve"
+tap "golangci/tap"
 tap "goreleaser/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -15,8 +16,6 @@ tap "neovim/neovim"
 tap "valelint/vale"
 # CLI tool for working with Architecture Decision Records
 brew "adr-tools"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Record and share terminal sessions
 brew "asciinema"
 # Use AWS IAM credentials to authenticate to Kubernetes
@@ -47,6 +46,8 @@ brew "gnutls"
 brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
+# Foreman in Go for Procfile-based application management
+brew "forego"
 # Cleans up old and inactive forks on your GitHub account
 brew "fork-cleaner"
 # Command-line fuzzy finder written in Go
@@ -73,6 +74,12 @@ brew "goreleaser"
 brew "gpg-agent"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# Like cURL, but for gRPC
+brew "grpcurl"
+# The Kubernetes package manager
+brew "helm"
+# The Kubernetes package manager
+brew "helm@2"
 # Curl statistics made simple
 brew "httpstat"
 # Configurable static site generator
@@ -91,8 +98,6 @@ brew "jsonnet"
 brew "k3d"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
-# The Kubernetes package manager
-brew "kubernetes-helm"
 # YAML Parser
 brew "libyaml"
 # Java-based project management
@@ -137,6 +142,10 @@ brew "stern"
 brew "telnet"
 # Tool to build, change, and version infrastructure
 brew "terraform"
+# Tool to build, change, and version infrastructure
+brew "terraform@0.11"
+# Thin wrapper for Terraform e.g. for locking state
+brew "terragrunt"
 # Simplified and community-driven man pages
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
@@ -155,7 +164,7 @@ brew "wget"
 brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Clone all repos of a github organization
+# 
 brew "caarlos0/tap/clone-org"
 # quickly ssh into gcloud instances
 brew "caarlos0/tap/gssh"
@@ -169,6 +178,8 @@ brew "caarlos0/tap/org-stats"
 brew "caarlos0/tap/svu"
 # The fastest shell plugin manager
 brew "getantibody/tap/antibody"
+# Fast linters runner for Go.
+brew "golangci/tap/golangci-lint"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 # A customizable, syntax-aware linter for prose.
@@ -177,14 +188,23 @@ cask "1password"
 cask "airflow"
 cask "appcleaner"
 cask "brave-browser"
+cask "chefdk"
+cask "deckset"
 cask "discord"
 cask "docker"
 cask "figma"
+cask "firefox"
+cask "font-hack"
 cask "font-source-code-pro"
+cask "goland"
+cask "google-chrome"
 cask "google-cloud-sdk"
+cask "hammerspoon"
+cask "imageoptim"
 cask "intellij-idea-ce"
 cask "iterm2-beta"
 cask "java"
+cask "kap"
 cask "keepingyouawake"
 cask "keybase"
 cask "kindle"
@@ -217,4 +237,3 @@ cask "visual-studio-code"
 cask "vlc"
 cask "webpquicklook"
 cask "whatsapp"
-cask "chef/chef/chefdk"
