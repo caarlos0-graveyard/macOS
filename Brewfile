@@ -11,8 +11,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "nektos/tap"
-tap "neovim/neovim"
 tap "valelint/vale"
 # CLI tool for working with Architecture Decision Records
 brew "adr-tools"
@@ -54,10 +52,6 @@ brew "fork-cleaner"
 brew "fzf"
 # GNU awk utility
 brew "gawk"
-# GNU debugger
-brew "gdb"
-# GIF image/animation creator/editor
-brew "gifsicle"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # C code prettifier
@@ -72,10 +66,6 @@ brew "gnupg"
 brew "goreleaser"
 # GPG key agent
 brew "gpg-agent"
-# Graph visualization software from AT&T and Bell Labs
-brew "graphviz"
-# Like cURL, but for gRPC
-brew "grpcurl"
 # The Kubernetes package manager
 brew "helm"
 # The Kubernetes package manager
@@ -106,32 +96,18 @@ brew "maven"
 brew "msgpack"
 # NCurses Disk Usage
 brew "ncdu"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
-# Tool for creating identical machine images for multiple platforms
-brew "packer"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
-# Service monitoring system and time series database
-brew "prometheus"
 # Show ps output as a tree
 brew "pstree"
-# Python version management
-brew "pyenv"
-# Ruby version manager
-brew "rbenv"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Standard unix software packaging tool
-brew "rpm"
-# The Rust toolchain installer
-brew "rustup-init"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Package any app for every Linux desktop, server, cloud or device
@@ -196,19 +172,14 @@ cask "figma"
 cask "firefox"
 cask "font-hack"
 cask "font-source-code-pro"
-cask "goland"
 cask "google-chrome"
 cask "google-cloud-sdk"
-cask "hammerspoon"
 cask "imageoptim"
-cask "intellij-idea-ce"
 cask "iterm2-beta"
 cask "java"
-cask "kap"
 cask "keepingyouawake"
 cask "keybase"
 cask "kindle"
-cask "lastpass"
 cask "monodraw"
 cask "ngrok"
 cask "notion"
@@ -221,17 +192,13 @@ cask "qlprettypatch"
 cask "qlstephen"
 cask "quicklook-csv"
 cask "quicklook-json"
-cask "skype"
+cask "rectangle"
 cask "slack"
-cask "spectacle"
-cask "spotify"
-cask "steam"
 cask "subtitles"
 cask "suspicious-package"
 cask "telegram"
 cask "transmission"
 cask "vagrant"
-cask "vanilla"
 cask "viscosity"
 cask "visual-studio-code"
 cask "vlc"
