@@ -94,6 +94,8 @@ brew "libyaml"
 brew "maven"
 # Library for a binary-based efficient data interchange format
 brew "msgpack"
+# 'traceroute' and 'ping' in a single tool
+brew "mtr", link: false
 # NCurses Disk Usage
 brew "ncdu"
 # Port scanning utility for large networks
@@ -138,6 +140,8 @@ brew "watch"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
 # 
@@ -163,7 +167,6 @@ brew "valelint/vale/vale"
 cask "1password"
 cask "airflow"
 cask "appcleaner"
-cask "brave-browser"
 cask "chefdk"
 cask "deckset"
 cask "discord"
@@ -171,9 +174,11 @@ cask "docker"
 cask "figma"
 cask "firefox"
 cask "font-hack"
+cask "font-jetbrains-mono"
 cask "font-source-code-pro"
 cask "google-chrome"
 cask "google-cloud-sdk"
+cask "iina"
 cask "imageoptim"
 cask "iterm2-beta"
 cask "java"
@@ -200,6 +205,5 @@ cask "telegram"
 cask "transmission"
 cask "viscosity"
 cask "visual-studio-code"
-cask "vlc"
 cask "webpquicklook"
 cask "whatsapp"
