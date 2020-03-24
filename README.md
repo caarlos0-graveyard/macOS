@@ -4,13 +4,13 @@ How I setup a new Mac.
 
 ## 1. Install brew
 
-```console
+```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ## 2. Install deps
 
-```console
+```sh
 git clone https://github.com/caarlos0/mac.git
 cd mac
 # edit Brewfile to remove/add things
@@ -19,7 +19,7 @@ brew bundle
 
 ## 3. Install dotfiles
 
-```console
+```sh
 git clone https://github.com/caarlos0/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ./script/bootstrap
