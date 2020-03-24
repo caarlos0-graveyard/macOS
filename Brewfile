@@ -1,6 +1,7 @@
 tap "caarlos0/tap"
 tap "chef/chef"
 tap "getantibody/tap"
+tap "github/gh"
 tap "go-delve/delve"
 tap "golangci/tap"
 tap "goreleaser/tap"
@@ -11,9 +12,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "valelint/vale"
-# CLI tool for working with Architecture Decision Records
-brew "adr-tools"
+cask "adoptopenjdk8"
 # Record and share terminal sessions
 brew "asciinema"
 # Use AWS IAM credentials to authenticate to Kubernetes
@@ -32,10 +31,6 @@ brew "cmake"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
-# Go dependency management tool
-brew "dep"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # GNU Transport Layer Security (TLS) Library
@@ -62,6 +57,8 @@ brew "gnu-sed"
 brew "gnu-tar"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser"
 # GPG key agent
@@ -72,8 +69,6 @@ brew "helm"
 brew "helm@2"
 # Curl statistics made simple
 brew "httpstat"
-# Configurable static site generator
-brew "hugo"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Calculate various network masks, etc. from a given IP address
@@ -82,8 +77,6 @@ brew "ipcalc"
 brew "jemalloc"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Domain specific configuration language for defining JSON data
-brew "jsonnet"
 # Little helper to run Rancher Lab's k3s in Docker
 brew "k3d"
 # Tool that can switch between kubectl contexts easily and create aliases
@@ -116,14 +109,12 @@ brew "shellcheck"
 brew "snapcraft"
 # Tail multiple Kubernetes pods & their containers
 brew "stern"
-# User interface to the TELNET protocol (built from macOS Sierra sources)
+# User interface to the TELNET protocol
 brew "telnet"
 # Tool to build, change, and version infrastructure
 brew "terraform"
 # Tool to build, change, and version infrastructure
 brew "terraform@0.11"
-# Thin wrapper for Terraform e.g. for locking state
-brew "terragrunt"
 # Simplified and community-driven man pages
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
@@ -158,12 +149,12 @@ brew "caarlos0/tap/org-stats"
 brew "caarlos0/tap/svu"
 # The fastest shell plugin manager
 brew "getantibody/tap/antibody"
+# GitHub CLI
+brew "github/gh/gh"
 # Fast linters runner for Go.
 brew "golangci/tap/golangci-lint"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
-# A customizable, syntax-aware linter for prose.
-brew "valelint/vale/vale"
 cask "1password"
 cask "airflow"
 cask "appcleaner"
@@ -175,11 +166,12 @@ cask "figma"
 cask "firefox"
 cask "font-hack"
 cask "font-jetbrains-mono"
-cask "font-source-code-pro"
+cask "goland"
 cask "google-chrome"
 cask "google-cloud-sdk"
 cask "iina"
 cask "imageoptim"
+cask "intellij-idea-ce"
 cask "iterm2-beta"
 cask "java"
 cask "keepingyouawake"
@@ -199,6 +191,7 @@ cask "quicklook-csv"
 cask "quicklook-json"
 cask "rectangle"
 cask "slack"
+cask "spotify"
 cask "subtitles"
 cask "suspicious-package"
 cask "telegram"
