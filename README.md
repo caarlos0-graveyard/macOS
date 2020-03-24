@@ -13,6 +13,7 @@ How I setup a new Mac.
 ```console
 git clone https://github.com/caarlos0/mac.git
 cd mac
+# edit Brewfile to remove/add things
 brew bundle
 ```
 
