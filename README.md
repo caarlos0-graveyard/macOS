@@ -19,6 +19,8 @@ brew bundle
 
 ## 3. Install dotfiles
 
+Outdated: follow instructions in https://github.com/caarlos0/dotfiles.fish
+
 ```sh
 git clone https://github.com/caarlos0/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
