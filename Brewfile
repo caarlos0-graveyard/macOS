@@ -14,8 +14,6 @@ cask "adoptopenjdk8"
 brew "asciinema"
 # Use AWS IAM credentials to authenticate to Kubernetes
 brew "aws-iam-authenticator"
-# Official Amazon AWS command-line interface
-brew "awscli"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Development kit for the Java programming language
@@ -123,7 +121,7 @@ brew "stern"
 # User interface to the TELNET protocol
 brew "telnet"
 # Tool to build, change, and version infrastructure
-brew "terraform"
+brew "terraform@0.12"
 # Simplified and community-driven man pages
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
@@ -160,7 +158,6 @@ cask "deckset"
 cask "discord"
 cask "docker"
 cask "figma"
-cask "firefox"
 cask "font-hack"
 cask "font-jetbrains-mono"
 cask "goland"
@@ -194,7 +191,6 @@ cask "suspicious-package"
 cask "telegram"
 cask "transmission"
 cask "twitch"
-cask "viscosity"
 cask "visual-studio-code"
 cask "webpquicklook"
 cask "whatsapp"
