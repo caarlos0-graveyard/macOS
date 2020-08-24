@@ -42,8 +42,6 @@ brew "findutils"
 brew "fish"
 # Foreman in Go for Procfile-based application management
 brew "forego"
-# Cleans up old and inactive forks on your GitHub account
-brew "fork-cleaner"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GNU awk utility
@@ -70,6 +68,8 @@ brew "grc"
 brew "helm"
 # HTTP load generator, ApacheBench (ab) replacement
 brew "hey"
+# Improved top (interactive process viewer)
+brew "htop"
 # Curl statistics made simple
 brew "httpstat"
 # Command-line benchmarking tool
@@ -142,6 +142,8 @@ brew "yamllint"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Cleans up old and inactive forks on your github account.
+brew "caarlos0/tap/fork-cleaner"
 # quickly ssh into gcloud instances
 brew "caarlos0/tap/gssh"
 # Like gofmt, but for JSON files
@@ -176,7 +178,6 @@ cask "ngrok"
 cask "notion"
 cask "now"
 cask "postgres"
-cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
 cask "qlprettypatch"
