@@ -2,5 +2,5 @@
 set -e
 cd /Users/carlos/Code/caarlos0/macOS
 brew bundle dump --force --describe
-git commit -sam 'feat: update pkgs'
+git commit -sam 'feat: update pkgs' || true
 git push origin HEAD
