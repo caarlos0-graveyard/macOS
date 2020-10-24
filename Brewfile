@@ -1,21 +1,25 @@
 tap "caarlos0/tap"
+tap "chef/chef"
+tap "clojure/tools"
 tap "github/gh"
 tap "golangci/tap"
 tap "goreleaser/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-cask "adoptopenjdk8"
 # Record and share terminal sessions
 brew "asciinema"
 # Use AWS IAM credentials to authenticate to Kubernetes
 brew "aws-iam-authenticator"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Development kit for the Java programming language
 brew "openjdk@11"
 # Google's own build tool
@@ -32,6 +36,8 @@ brew "coreutils"
 brew "curl"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # Play, record, convert, and stream audio and video
@@ -46,6 +52,8 @@ brew "forego"
 brew "fzf"
 # GNU awk utility
 brew "gawk"
+# GitHub command-line tool
+brew "gh"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # C code prettifier
@@ -62,9 +70,11 @@ brew "go"
 brew "goreleaser"
 # GPG key agent
 brew "gpg-agent"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # Colorize logfiles and command output
 brew "grc"
-# The Kubernetes package manager
+# Kubernetes package manager
 brew "helm"
 # HTTP load generator, ApacheBench (ab) replacement
 brew "hey"
@@ -72,6 +82,8 @@ brew "hey"
 brew "htop"
 # Curl statistics made simple
 brew "httpstat"
+# Configurable static site generator
+brew "hugo"
 # Command-line benchmarking tool
 brew "hyperfine"
 # Tools and libraries to manipulate images in many formats
@@ -86,8 +98,12 @@ brew "jq"
 brew "jsonnet"
 # Little helper to run Rancher Lab's k3s in Docker
 brew "k3d"
+# Helps audit your Kubernetes clusters against common security controls
+brew "kubeaudit"
 # YAML Parser
 brew "libyaml"
+# Development kit for the Java programming language
+brew "openjdk"
 # Java-based project management
 brew "maven"
 # Library for a binary-based efficient data interchange format
@@ -110,10 +126,12 @@ brew "qemu"
 brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# The Rust toolchain installer
+# Rust toolchain installer
 brew "rustup-init"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Tool to work with .snap files
+brew "snap"
 # Package any app for every Linux desktop, server, cloud or device
 brew "snapcraft"
 # Tail multiple Kubernetes pods & their containers
@@ -121,7 +139,7 @@ brew "stern"
 # User interface to the TELNET protocol
 brew "telnet"
 # Tool to build, change, and version infrastructure
-brew "terraform@0.12"
+brew "terraform"
 # Simplified and community-driven man pages
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
@@ -149,19 +167,21 @@ brew "caarlos0/tap/gssh"
 # Like gofmt, but for JSON files
 brew "caarlos0/tap/jsonfmt"
 brew "caarlos0/tap/svu"
-# GitHub CLI
-brew "github/gh/gh"
+# The Clojure Programming Language
+brew "clojure/tools/clojure"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 cask "1password"
+cask "adoptopenjdk8"
 cask "airflow"
 cask "appcleaner"
+cask "chefdk"
 cask "deckset"
 cask "discord"
 cask "docker"
 cask "figma"
-cask "font-hack"
-cask "font-jetbrains-mono"
+cask "font-inconsolata"
+cask "font-inconsolata-for-powerline"
 cask "goland"
 cask "google-chrome"
 cask "google-cloud-sdk"
@@ -173,6 +193,7 @@ cask "java"
 cask "keepingyouawake"
 cask "keybase"
 cask "kindle"
+cask "logitech-options"
 cask "monodraw"
 cask "ngrok"
 cask "notion"
