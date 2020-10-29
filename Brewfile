@@ -166,6 +166,8 @@ brew "caarlos0/tap/fork-cleaner"
 brew "caarlos0/tap/gssh"
 # Like gofmt, but for JSON files
 brew "caarlos0/tap/jsonfmt"
+# kubectx and kubens are power tools for kubectl
+brew "caarlos0/tap/kubectx"
 brew "caarlos0/tap/svu"
 # The Clojure Programming Language
 brew "clojure/tools/clojure"
