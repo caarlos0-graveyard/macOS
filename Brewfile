@@ -36,6 +36,8 @@ brew "coreutils"
 brew "curl"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Modern replacement for 'ls'
+brew "exa"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # GNU Transport Layer Security (TLS) Library
@@ -210,6 +212,7 @@ cask "quicklook-csv"
 cask "quicklook-json"
 cask "quitter"
 cask "rectangle"
+cask "signal"
 cask "slack"
 cask "subtitles"
 cask "suspicious-package"
