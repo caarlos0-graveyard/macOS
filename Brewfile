@@ -36,6 +36,8 @@ brew "coreutils"
 brew "curl"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Command-line DNS client
+brew "dog"
 # Modern replacement for 'ls'
 brew "exa"
 # Simple, fast and user-friendly alternative to find
@@ -68,8 +70,6 @@ brew "gnu-tar"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Deliver Go binaries as fast and easily as possible
-brew "goreleaser"
 # GPG key agent
 brew "gpg-agent"
 # Graph visualization software from AT&T and Bell Labs
@@ -173,6 +173,8 @@ brew "caarlos0/tap/kubectx"
 brew "caarlos0/tap/svu"
 # The Clojure Programming Language
 brew "clojure/tools/clojure"
+# Deliver Go binaries as fast and easily as possible
+brew "goreleaser/tap/goreleaser"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 cask "1password"
