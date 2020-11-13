@@ -12,6 +12,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "muesli/tap"
 # Record and share terminal sessions
 brew "asciinema"
 # Use AWS IAM credentials to authenticate to Kubernetes
@@ -58,6 +59,8 @@ brew "fzf"
 brew "gawk"
 # GitHub command-line tool
 brew "gh"
+# Render markdown on the CLI
+brew "glow"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # C code prettifier
@@ -177,6 +180,8 @@ brew "clojure/tools/clojure"
 brew "goreleaser/tap/goreleaser"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
+# Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
+brew "muesli/tap/markscribe"
 cask "1password"
 cask "adoptopenjdk8"
 cask "airflow"
