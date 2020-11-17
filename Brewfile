@@ -35,8 +35,6 @@ brew "cmake"
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Good-lookin' diffs with diff-highlight and more
-brew "diff-so-fancy"
 # Command-line DNS client
 brew "dog"
 # Modern replacement for 'ls'
@@ -59,6 +57,8 @@ brew "fzf"
 brew "gawk"
 # GitHub command-line tool
 brew "gh"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
 # Render markdown on the CLI
 brew "glow"
 # Command-line option parsing utility
