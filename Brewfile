@@ -41,6 +41,8 @@ brew "dog"
 brew "exa"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Implementation of malloc emphasizing fragmentation avoidance
+brew "jemalloc"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # Play, record, convert, and stream audio and video
@@ -95,8 +97,6 @@ brew "hyperfine"
 brew "imagemagick"
 # Calculate various network masks, etc. from a given IP address
 brew "ipcalc"
-# Implementation of malloc emphasizing fragmentation avoidance
-brew "jemalloc"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Domain specific configuration language for defining JSON data
