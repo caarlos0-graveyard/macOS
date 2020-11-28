@@ -12,6 +12,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "johanhaleby/kubetail"
 tap "muesli/tap"
 # Record and share terminal sessions
 brew "asciinema"
@@ -139,8 +140,6 @@ brew "shellcheck"
 brew "snap"
 # Package any app for every Linux desktop, server, cloud or device
 brew "snapcraft"
-# Tail multiple Kubernetes pods & their containers
-brew "stern"
 # User interface to the TELNET protocol
 brew "telnet"
 # Tool to build, change, and version infrastructure
@@ -180,6 +179,8 @@ brew "clojure/tools/clojure"
 brew "goreleaser/tap/goreleaser"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
+# Tail logs from multiple Kubernetes pods at the same time
+brew "johanhaleby/kubetail/kubetail"
 # Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
 brew "muesli/tap/markscribe"
 cask "1password"
