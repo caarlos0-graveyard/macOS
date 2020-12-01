@@ -34,6 +34,8 @@ brew "cloc"
 brew "cmake"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Implementation of malloc emphasizing fragmentation avoidance
+brew "jemalloc"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Command-line DNS client
@@ -42,8 +44,6 @@ brew "dog"
 brew "exa"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
-# Implementation of malloc emphasizing fragmentation avoidance
-brew "jemalloc"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # Play, record, convert, and stream audio and video
