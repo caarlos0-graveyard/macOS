@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
-cd /Users/carlos/Code/caarlos0/macOS
+cd "$(dirname "${BASH_SOURCE[0]}")"
 brew bundle dump --force --describe
 git commit -sam 'feat: update pkgs' || true
 git push origin HEAD
