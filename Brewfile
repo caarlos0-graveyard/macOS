@@ -138,10 +138,8 @@ brew "snap"
 brew "snapcraft"
 # User interface to the TELNET protocol
 brew "telnet"
-# Tool to build, change, and version infrastructure
-brew "terraform"
-# Tool to build, change, and version infrastructure
-brew "terraform@0.13"
+# Terraform version manager inspired by rbenv
+brew "tfenv"
 # Simplified and community-driven man pages
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)
