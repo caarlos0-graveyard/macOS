@@ -102,8 +102,6 @@ brew "jq"
 brew "jsonnet"
 # Little helper to run Rancher Lab's k3s in Docker
 brew "k3d"
-# Helps audit your Kubernetes clusters against common security controls
-brew "kubeaudit"
 # YAML Parser
 brew "libyaml"
 # Development kit for the Java programming language
@@ -191,7 +189,6 @@ cask "font-inconsolata"
 cask "goland"
 cask "google-chrome"
 cask "google-cloud-sdk"
-cask "iina"
 cask "imageoptim"
 cask "intellij-idea-ce"
 cask "iterm2-beta"
