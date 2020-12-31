@@ -115,7 +115,7 @@ brew "ncdu"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node", link: false
+brew "node"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Show ps output as a tree
