@@ -1,4 +1,5 @@
 tap "caarlos0/tap"
+tap "charmbracelet/tap"
 tap "chef/chef"
 tap "clojure/tools"
 tap "github/gh"
@@ -171,6 +172,8 @@ brew "caarlos0/tap/jsonfmt"
 # kubectx and kubens are power tools for kubectl
 brew "caarlos0/tap/kubectx"
 brew "caarlos0/tap/svu"
+# Manage your Charm account and encrypt/decrypt data
+brew "charmbracelet/tap/charm"
 # The Clojure Programming Language
 brew "clojure/tools/clojure"
 # Deliver Go binaries as fast and easily as possible
