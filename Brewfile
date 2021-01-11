@@ -14,6 +14,8 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "johanhaleby/kubetail"
 tap "muesli/tap"
+# FSF/GNU binutils for cross-compiling to arm-linux
+brew "arm-linux-gnueabihf-binutils"
 # Record and share terminal sessions
 brew "asciinema"
 # Use AWS IAM credentials to authenticate to Kubernetes
