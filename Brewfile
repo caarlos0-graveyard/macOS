@@ -172,6 +172,8 @@ brew "caarlos0/tap/jsonfmt"
 # kubectx and kubens are power tools for kubectl
 brew "caarlos0/tap/kubectx"
 brew "caarlos0/tap/svu"
+# Task Timer (tt) is a dead simple TUI task timer.
+brew "caarlos0/tap/tt"
 # Manage your Charm account and encrypt/decrypt data
 brew "charmbracelet/tap/charm"
 # The Clojure Programming Language
