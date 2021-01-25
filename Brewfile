@@ -188,40 +188,70 @@ brew "goreleaser/tap/goreleaser"
 brew "heroku/brew/heroku"
 # Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
 brew "muesli/tap/markscribe"
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
 cask "adoptopenjdk8"
+# Watch local content on Apple TV and Chromecast
 cask "airflow"
+# Application launcher and productivity software
 cask "alfred"
 cask "chefdk"
 cask "deckset"
+# Voice and text chat software
 cask "discord"
+# App to build and share containerized applications and microservices
 cask "docker"
 cask "figma"
 cask "font-inconsolata"
+# Go (golang) IDE
 cask "goland"
+# Web browser
 cask "google-chrome"
+# Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
+# Tool to optimize images to a smaller size
 cask "imageoptim"
+# IDE for Java development - community edition
 cask "intellij-idea-ce"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2-beta"
 cask "java"
+# Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
+# End-to-end encryption software
 cask "keybase"
+# Interface for reading and syncing eBooks
 cask "kindle"
+# Software for Logitech devices
 cask "logitech-options"
+# Tool to create text-based art
 cask "monodraw"
+# Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# App to write, plan, collaborate, and get organized
 cask "notion"
+# Create deployments right from the tray menu
 cask "now"
 cask "postgres"
+# GUI client for PostgreSQL databases
 cask "postico"
+# Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Monitors the computer system and optimizes its performance
 cask "sensei"
+# Instant messaging application focusing on security
 cask "signal"
+# Team communication and collaboration software
 cask "slack"
+# Automatically downloads subtitles movies and TV shows
 cask "subtitles"
+# Messaging app with a focus on speed and security
 cask "telegram"
+# Open-source BitTorrent client
 cask "transmission"
+# Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
 cask "vlc"
+# Desktop client for WhatsApp
 cask "whatsapp"
