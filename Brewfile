@@ -190,6 +190,7 @@ brew "heroku/brew/heroku"
 brew "muesli/tap/markscribe"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Prebuilt OpenJDK binaries
 cask "adoptopenjdk8"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
