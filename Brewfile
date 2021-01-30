@@ -1,3 +1,4 @@
+tap "achannarasappa/tap"
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
 tap "chef/chef"
@@ -165,6 +166,8 @@ brew "yamllint"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Terminal stock ticker with live updates and position tracking
+brew "achannarasappa/tap/ticker"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
 # quickly ssh into gcloud instances
