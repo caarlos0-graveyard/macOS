@@ -81,6 +81,8 @@ brew "gnu-tar"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Stricter gofmt
+brew "gofumpt"
 # Slightly more awesome Standard Unix Password Manager for Teams
 brew "gopass"
 # Graph visualization software from AT&T and Bell Labs
