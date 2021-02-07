@@ -189,7 +189,7 @@ brew "clojure/tools/clojure"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser"
 # Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
+brew "heroku/brew/heroku", link: false
 # Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
 brew "muesli/tap/markscribe"
 # Password manager that keeps all passwords secure behind one password
