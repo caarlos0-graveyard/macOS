@@ -200,6 +200,8 @@ cask "adoptopenjdk8"
 cask "airflow"
 # Application launcher and productivity software
 cask "alfred"
+# Web browser focusing on privacy
+cask "brave-browser"
 cask "chefdk"
 cask "deckset"
 # Voice and text chat software
