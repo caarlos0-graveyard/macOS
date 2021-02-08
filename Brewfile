@@ -89,6 +89,8 @@ brew "gopass"
 brew "graphviz"
 # Colorize logfiles and command output
 brew "grc"
+# GNU grep, egrep and fgrep
+brew "grep"
 # Kubernetes package manager
 brew "helm"
 # HTTP load generator, ApacheBench (ab) replacement
