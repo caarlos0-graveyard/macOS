@@ -204,6 +204,8 @@ cask "adoptopenjdk8"
 cask "airflow"
 # Application launcher and productivity software
 cask "alfred"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # Web browser focusing on privacy
 cask "brave-browser"
 cask "chefdk"
