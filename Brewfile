@@ -248,6 +248,8 @@ cask "now"
 cask "postgres"
 # GUI client for PostgreSQL databases
 cask "postico"
+# Control your tools with a few keystrokes
+cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Monitors the computer system and optimizes its performance
