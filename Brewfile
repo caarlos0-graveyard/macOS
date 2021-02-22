@@ -193,7 +193,7 @@ brew "charmbracelet/tap/charm"
 # The Clojure Programming Language
 brew "clojure/tools/clojure"
 # Deliver Go binaries as fast and easily as possible
-brew "goreleaser/tap/goreleaser"
+brew "goreleaser/tap/goreleaser", link: false
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 # Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
@@ -204,6 +204,8 @@ cask "1password"
 cask "adoptopenjdk8"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Application launcher and productivity software
 cask "alfred"
 # Tool to flash OS images to SD cards & USB drives
