@@ -115,6 +115,8 @@ brew "jq"
 brew "jsonnet"
 # Little helper to run Rancher Lab's k3s in Docker
 brew "k3d"
+# Package manager for kubectl plugins
+brew "krew"
 # YAML Parser
 brew "libyaml"
 # Development kit for the Java programming language
