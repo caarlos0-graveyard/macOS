@@ -84,8 +84,6 @@ brew "grc"
 brew "grep"
 # Kubernetes package manager
 brew "helm"
-# HTTP load generator, ApacheBench (ab) replacement
-brew "hey"
 # Improved top (interactive process viewer)
 brew "htop"
 # Curl statistics made simple
@@ -100,8 +98,6 @@ brew "imagemagick"
 brew "ipcalc"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Domain specific configuration language for defining JSON data
-brew "jsonnet"
 # Little helper to run Rancher Lab's k3s in Docker
 brew "k3d"
 # YAML Parser
