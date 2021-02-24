@@ -15,8 +15,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "johanhaleby/kubetail"
 tap "muesli/tap"
-# FSF/GNU binutils for cross-compiling to arm-linux
-brew "arm-linux-gnueabihf-binutils"
 # Record and share terminal sessions
 brew "asciinema"
 # Use AWS IAM credentials to authenticate to Kubernetes
@@ -27,10 +25,6 @@ brew "awscli"
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Development kit for the Java programming language
-brew "openjdk@11"
-# Google's own build tool
-brew "bazel"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
 # Statistics utility to count lines of code
@@ -97,8 +91,6 @@ brew "helm"
 brew "hey"
 # Improved top (interactive process viewer)
 brew "htop"
-# User-friendly cURL replacement (command-line HTTP client)
-brew "httpie"
 # Curl statistics made simple
 brew "httpstat"
 # Configurable static site generator
@@ -115,8 +107,6 @@ brew "jq"
 brew "jsonnet"
 # Little helper to run Rancher Lab's k3s in Docker
 brew "k3d"
-# Package manager for kubectl plugins
-brew "krew"
 # YAML Parser
 brew "libyaml"
 # Development kit for the Java programming language
@@ -125,24 +115,20 @@ brew "openjdk"
 brew "maven"
 # Library for a binary-based efficient data interchange format
 brew "msgpack"
-# NCurses Disk Usage
-brew "ncdu"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
+# Development kit for the Java programming language
+brew "openjdk@11"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Show ps output as a tree
 brew "pstree"
-# Emulator for x86 and PowerPC
-brew "qemu"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Rust toolchain installer
-brew "rustup-init"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Tool to work with .snap files
@@ -169,8 +155,6 @@ brew "vim"
 brew "watch"
 # Internet file retriever
 brew "wget"
-# Linter for YAML files
-brew "yamllint"
 # JavaScript package manager
 brew "yarn"
 # Download YouTube videos from the command-line
@@ -190,14 +174,8 @@ brew "caarlos0/tap/tt"
 brew "caarlos0/tap/twitter-cleaner"
 # Manage your Charm account and encrypt/decrypt data
 brew "charmbracelet/tap/charm"
-# The Clojure Programming Language
-brew "clojure/tools/clojure"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser", link: false
-# Everything you need to get started with Heroku
-brew "heroku/brew/heroku"
-# Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
-brew "muesli/tap/markscribe"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Prebuilt OpenJDK binaries
@@ -206,12 +184,6 @@ cask "adoptopenjdk8"
 cask "airflow"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Application launcher and productivity software
-cask "alfred"
-# Tool to flash OS images to SD cards & USB drives
-cask "balenaetcher"
-# Web browser focusing on privacy
-cask "brave-browser"
 cask "chefdk"
 cask "deckset"
 # Voice and text chat software
