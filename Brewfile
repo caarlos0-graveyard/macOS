@@ -1,7 +1,6 @@
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
 tap "chef/chef"
-tap "clojure/tools"
 tap "github/gh"
 tap "golangci/tap"
 tap "goreleaser/tap"
@@ -13,8 +12,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "johanhaleby/kubetail"
-tap "muesli/tap"
 # Record and share terminal sessions
 brew "asciinema"
 # Use AWS IAM credentials to authenticate to Kubernetes
