@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e
 cd "$(dirname "${BASH_SOURCE[0]}")"
+git pull --rebase origin master
 brew bundle dump --force --describe
 git commit -sam 'feat: update pkgs' || true
 git push origin HEAD
