@@ -106,8 +106,6 @@ brew "libyaml"
 brew "openjdk"
 # Java-based project management
 brew "maven"
-# Library for a binary-based efficient data interchange format
-brew "msgpack"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
@@ -177,13 +175,11 @@ cask "adoptopenjdk8"
 cask "airflow"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-cask "chefdk"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
-cask "figma"
 cask "font-inconsolata"
 # Go (golang) IDE
 cask "goland"
