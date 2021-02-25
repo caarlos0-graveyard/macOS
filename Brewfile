@@ -150,6 +150,7 @@ brew "wget"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+brew "caarlos0/tap/clone-org"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
 # quickly ssh into gcloud instances
@@ -166,7 +167,7 @@ brew "caarlos0/tap/twitter-cleaner"
 # Manage your Charm account and encrypt/decrypt data
 brew "charmbracelet/tap/charm"
 # Deliver Go binaries as fast and easily as possible
-brew "goreleaser/tap/goreleaser", link: false
+brew "goreleaser/tap/goreleaser"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Prebuilt OpenJDK binaries
