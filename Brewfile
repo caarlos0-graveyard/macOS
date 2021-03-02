@@ -74,6 +74,8 @@ brew "gnupg"
 brew "go"
 # Stricter gofmt
 brew "gofumpt"
+# Fast linters runner for Go
+brew "golangci-lint"
 # Slightly more awesome Standard Unix Password Manager for Teams
 brew "gopass"
 # Graph visualization software from AT&T and Bell Labs
