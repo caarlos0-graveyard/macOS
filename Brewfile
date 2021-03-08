@@ -203,6 +203,8 @@ cask "keepingyouawake"
 cask "keybase"
 # Interface for reading and syncing eBooks
 cask "kindle"
+# App to manage software development and track bugs
+cask "linear-linear"
 # Software for Logitech devices
 cask "logitech-options"
 # Tool to create text-based art
