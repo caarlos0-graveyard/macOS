@@ -112,8 +112,6 @@ brew "maven"
 brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
-# Development kit for the Java programming language
-brew "openjdk@11"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Show ps output as a tree
@@ -172,8 +170,7 @@ brew "charmbracelet/tap/charm"
 brew "goreleaser/tap/goreleaser"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Prebuilt OpenJDK binaries
-cask "adoptopenjdk8"
+cask "adoptopenjdk"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
 cask "deckset"
