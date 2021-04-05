@@ -102,6 +102,8 @@ brew "ipcalc"
 brew "jq"
 # Little helper to run Rancher Lab's k3s in Docker
 brew "k3d"
+# Utility to create k3s clusters on any local or remote VM
+brew "k3sup"
 # YAML Parser
 brew "libyaml"
 # Development kit for the Java programming language
@@ -126,6 +128,8 @@ brew "shellcheck"
 brew "snap"
 # Package any app for every Linux desktop, server, cloud or device
 brew "snapcraft"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Tail multiple Kubernetes pods & their containers
 brew "stern"
 # User interface to the TELNET protocol
@@ -173,12 +177,15 @@ cask "1password"
 cask "adoptopenjdk"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 cask "font-inconsolata"
+cask "font-inconsolata-nerd-font"
 # Go (golang) IDE
 cask "goland"
 # Web browser
