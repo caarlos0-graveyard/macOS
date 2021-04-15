@@ -111,6 +111,8 @@ brew "libyaml"
 brew "openjdk"
 # Java-based project management
 brew "maven"
+# Simple deb and rpm packager
+brew "nfpm"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
@@ -202,8 +204,6 @@ cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2-beta"
 cask "java"
-# Open-source screen recorder built with web technology
-cask "kap"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # End-to-end encryption software
