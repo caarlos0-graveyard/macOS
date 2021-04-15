@@ -202,6 +202,8 @@ cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2-beta"
 cask "java"
+# Open-source screen recorder built with web technology
+cask "kap"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # End-to-end encryption software
