@@ -111,8 +111,6 @@ brew "libyaml"
 brew "openjdk"
 # Java-based project management
 brew "maven"
-# Simple deb and rpm packager
-brew "nfpm"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
@@ -175,6 +173,8 @@ brew "caarlos0/tap/twitter-cleaner"
 brew "charmbracelet/tap/charm"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser"
+# nFPM is not FPM
+brew "goreleaser/tap/nfpm"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
 # Password manager that keeps all passwords secure behind one password
