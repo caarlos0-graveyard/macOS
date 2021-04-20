@@ -155,6 +155,7 @@ brew "wget"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Clone all repos of a GitHub user or organization.
 brew "caarlos0/tap/clone-org"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
