@@ -159,7 +159,6 @@ brew "yarn"
 brew "youtube-dl"
 # Clone all repos of a GitHub user or organization.
 brew "caarlos0/tap/clone-org"
-brew "caarlos0/tap/example"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
 # quickly ssh into gcloud instances
