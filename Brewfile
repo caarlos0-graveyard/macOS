@@ -111,6 +111,8 @@ brew "libyaml"
 brew "openjdk"
 # Java-based project management
 brew "maven"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
