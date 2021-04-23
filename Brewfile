@@ -176,7 +176,7 @@ brew "caarlos0/tap/twitter-cleaner"
 brew "charmbracelet/tap/charm"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser"
-# nFPM is not FPM
+# NFPM is a simple, 0-dependencies, deb, rpm and apk packager.
 brew "goreleaser/tap/nfpm"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
