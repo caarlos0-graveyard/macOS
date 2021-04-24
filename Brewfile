@@ -35,8 +35,6 @@ brew "coreutils"
 brew "jemalloc"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Create Docker hosts locally and on cloud providers
-brew "docker-machine"
 # Command-line DNS client
 brew "dog"
 # Modern replacement for 'ls'
