@@ -113,6 +113,8 @@ brew "libyaml"
 brew "openjdk"
 # Java-based project management
 brew "maven"
+# Remote terminal application
+brew "mosh"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Port scanning utility for large networks
