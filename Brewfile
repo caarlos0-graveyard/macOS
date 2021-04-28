@@ -143,6 +143,8 @@ brew "telnet"
 brew "tfenv"
 # Simplified and community-driven man pages
 brew "tldr"
+# Terminal multiplexer
+brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Extract, view, and test RAR archives
