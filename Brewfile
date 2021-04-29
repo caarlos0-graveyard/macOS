@@ -157,6 +157,8 @@ brew "vim"
 brew "watch"
 # Internet file retriever
 brew "wget"
+# Linter for YAML files
+brew "yamllint"
 # JavaScript package manager
 brew "yarn"
 # Download YouTube videos from the command-line
