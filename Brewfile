@@ -188,6 +188,7 @@ brew "goreleaser/tap/nfpm"
 brew "teamookla/speedtest/speedtest"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# JDK from the Java User Group (JUG)
 cask "adoptopenjdk"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
