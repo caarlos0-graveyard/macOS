@@ -15,6 +15,8 @@ tap "homebrew/services"
 tap "teamookla/speedtest"
 # Record and share terminal sessions
 brew "asciinema"
+# Automatically restart SSH sessions and tunnels
+brew "autossh"
 # Use AWS IAM credentials to authenticate to Kubernetes
 brew "aws-iam-authenticator"
 # Official Amazon AWS command-line interface
