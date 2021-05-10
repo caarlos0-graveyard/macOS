@@ -255,6 +255,8 @@ cask "sensei"
 cask "signal"
 # Team communication and collaboration software
 cask "slack"
+# Music streaming service
+cask "spotify"
 # Automatically downloads subtitles movies and TV shows
 cask "subtitles"
 # Messaging app with a focus on speed and security
