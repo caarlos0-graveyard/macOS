@@ -196,6 +196,7 @@ cask "adoptopenjdk"
 cask "airflow"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
+cask "beardedspice"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
@@ -228,8 +229,6 @@ cask "keepingyouawake"
 cask "keybase"
 # Interface for reading and syncing eBooks
 cask "kindle"
-# GPU-based terminal emulator
-cask "kitty"
 # App to manage software development and track bugs
 cask "linear-linear"
 # Software for Logitech devices
