@@ -141,8 +141,8 @@ brew "starship"
 brew "stern"
 # User interface to the TELNET protocol
 brew "telnet"
-# Terraform version manager inspired by rbenv
-brew "tfenv"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # Simplified and community-driven man pages
 brew "tldr"
 # Terminal multiplexer
