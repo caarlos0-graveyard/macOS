@@ -12,6 +12,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "superfly/tap"
 tap "teamookla/speedtest"
 # Record and share terminal sessions
 brew "asciinema"
@@ -186,6 +187,7 @@ brew "charmbracelet/tap/charm"
 brew "goreleaser/tap/goreleaser"
 # NFPM is a simple, 0-dependencies, deb, rpm and apk packager.
 brew "goreleaser/tap/nfpm"
+brew "superfly/tap/flyctl"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
 # Password manager that keeps all passwords secure behind one password
