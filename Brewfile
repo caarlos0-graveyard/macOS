@@ -176,6 +176,7 @@ brew "caarlos0/tap/gssh"
 brew "caarlos0/tap/jsonfmt"
 # kubectx and kubens are power tools for kubectl
 brew "caarlos0/tap/kubectx"
+# Semantic Version Util.
 brew "caarlos0/tap/svu"
 # Task Timer (tt) is a dead simple TUI task timer.
 brew "caarlos0/tap/tt"
