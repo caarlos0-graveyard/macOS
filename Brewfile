@@ -261,8 +261,6 @@ cask "slack"
 cask "spotify"
 # Automatically downloads subtitles movies and TV shows
 cask "subtitles"
-# Remote access and connectivity software focused on security
-cask "teamviewer"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Open-source BitTorrent client
