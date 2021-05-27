@@ -108,6 +108,8 @@ brew "jq"
 brew "k3d"
 # Utility to create k3s clusters on any local or remote VM
 brew "k3sup"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # YAML Parser
 brew "libyaml"
 # Development kit for the Java programming language
