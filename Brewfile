@@ -178,7 +178,7 @@ brew "caarlos0/tap/gssh"
 brew "caarlos0/tap/jsonfmt"
 # kubectx and kubens are power tools for kubectl
 brew "caarlos0/tap/kubectx"
-# Semantic Version Util.
+# Semantic Version Utility
 brew "caarlos0/tap/svu"
 # Task Timer (tt) is a dead simple TUI task timer.
 brew "caarlos0/tap/tt"
@@ -187,7 +187,7 @@ brew "caarlos0/tap/twitter-cleaner"
 # Manage your Charm account and encrypt/decrypt data
 brew "charmbracelet/tap/charm"
 # Deliver Go binaries as fast and easily as possible
-brew "goreleaser/tap/goreleaser"
+brew "goreleaser/tap/goreleaser-pro"
 # NFPM is a simple, 0-dependencies, deb, rpm and apk packager.
 brew "goreleaser/tap/nfpm"
 brew "superfly/tap/flyctl"
