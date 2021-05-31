@@ -190,7 +190,6 @@ brew "charmbracelet/tap/charm"
 brew "goreleaser/tap/goreleaser-pro"
 # NFPM is a simple, 0-dependencies, deb, rpm and apk packager.
 brew "goreleaser/tap/nfpm"
-brew "superfly/tap/flyctl"
 # Ookla Speedtest
 brew "teamookla/speedtest/speedtest"
 # Password manager that keeps all passwords secure behind one password
