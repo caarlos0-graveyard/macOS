@@ -82,6 +82,8 @@ brew "gofumpt"
 brew "golangci-lint"
 # Slightly more awesome Standard Unix Password Manager for Teams
 brew "gopass"
+# Version Control Visualization Tool
+brew "gource"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Colorize logfiles and command output
