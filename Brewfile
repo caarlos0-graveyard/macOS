@@ -208,8 +208,6 @@ cask "discord"
 cask "docker"
 cask "font-inconsolata"
 cask "font-inconsolata-nerd-font"
-cask "font-monoid"
-cask "font-monoid-nerd-font"
 # Monospaced variant of "San Francisco" by Apple
 cask "font-sf-mono"
 # Apple's SF Mono font patched with the Nerd Fonts patcher for Powerline support
