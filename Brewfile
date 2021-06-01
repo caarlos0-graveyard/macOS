@@ -184,8 +184,6 @@ brew "caarlos0/tap/kubectx"
 brew "caarlos0/tap/svu"
 # Task Timer (tt) is a dead simple TUI task timer.
 brew "caarlos0/tap/tt"
-# Automatically delete tweets, retweets, and favorites from your timeline, and, if provided, from your twitter archive as well.
-brew "caarlos0/tap/twitter-cleaner"
 # Manage your Charm account and encrypt/decrypt data
 brew "charmbracelet/tap/charm"
 # Deliver Go binaries as fast and easily as possible
