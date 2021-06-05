@@ -185,7 +185,7 @@ brew "caarlos0/tap/jsonfmt"
 brew "caarlos0/tap/kubectx"
 # Semantic Version Utility
 brew "caarlos0/tap/svu"
-# Task Timer (tt) is a dead simple TUI task timer.
+# Task Timer (tt) is a dead simple TUI task timer
 brew "caarlos0/tap/tt"
 # Manage your Charm account and encrypt/decrypt data
 brew "charmbracelet/tap/charm"
