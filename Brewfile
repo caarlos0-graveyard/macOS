@@ -172,7 +172,7 @@ brew "yamllint"
 # JavaScript package manager
 brew "yarn"
 # Download YouTube videos from the command-line
-brew "youtube-dl", link: false
+brew "youtube-dl"
 # Clone all repos of a GitHub user or organization.
 brew "caarlos0/tap/clone-org"
 # Cleans up old and inactive forks on your github account.
