@@ -13,20 +13,25 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "planetscale/tap"
 tap "superfly/tap"
 tap "teamookla/speedtest"
+# YAML Parser
+brew "libyaml"
+# Command-line interface for SQLite
+brew "sqlite"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Record and share terminal sessions
 brew "asciinema"
-# Automatically restart SSH sessions and tunnels
-brew "autossh"
-# Use AWS IAM credentials to authenticate to Kubernetes
-brew "aws-iam-authenticator"
-# Official Amazon AWS command-line interface
-brew "awscli", link: false
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Сoncurrent, cache-efficient, and Dockerfile-agnostic builder toolkit
+brew "buildkit"
+# Powerful, enterprise-ready, open source web server with automatic HTTPS
+brew "caddy"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
 # Statistics utility to count lines of code
@@ -83,8 +88,6 @@ brew "go"
 brew "gofumpt"
 # Fast linters runner for Go
 brew "golangci-lint"
-# Slightly more awesome Standard Unix Password Manager for Teams
-brew "gopass"
 # Version Control Visualization Tool
 brew "gource"
 # Graph visualization software from AT&T and Bell Labs
@@ -113,16 +116,22 @@ brew "jq"
 brew "k3d"
 # Utility to create k3s clusters on any local or remote VM
 brew "k3sup"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
-# YAML Parser
-brew "libyaml"
 # Development kit for the Java programming language
 brew "openjdk"
 # Java-based project management
 brew "maven"
+# Collection of tools that nobody wrote when UNIX was young
+brew "moreutils"
 # Remote terminal application
 brew "mosh"
+# Open source relational database management system
+brew "mysql-client"
+# Fast, highly customisable system info script
+brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Port scanning utility for large networks
@@ -183,6 +192,8 @@ brew "caarlos0/tap/gssh"
 brew "caarlos0/tap/jsonfmt"
 # kubectx and kubens are power tools for kubectl
 brew "caarlos0/tap/kubectx"
+# Get the contributor stats summary from all repos of any given organization
+brew "caarlos0/tap/org-stats"
 # Semantic Version Utility
 brew "caarlos0/tap/svu"
 # Task Timer (tt) is a dead simple TUI task timer
@@ -191,7 +202,7 @@ brew "caarlos0/tap/tt"
 brew "charmbracelet/tap/charm"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser-pro"
-# NFPM is a simple, 0-dependencies, deb, rpm and apk packager.
+# nFPM is a simple, 0-dependencies, deb, rpm and apk packager.
 brew "goreleaser/tap/nfpm"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
@@ -199,14 +210,20 @@ cask "1password"
 cask "adoptopenjdk"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
-cask "beardedspice"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
+cask "font-fira-mono-nerd-font"
 cask "font-inconsolata"
 cask "font-inconsolata-nerd-font"
+# Virtual video-calling space
+cask "gather"
 # Go (golang) IDE
 cask "goland"
 # Web browser
