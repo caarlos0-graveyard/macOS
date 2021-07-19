@@ -205,6 +205,7 @@ cask "adoptopenjdk"
 cask "airflow"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+cask "beardedspice"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
