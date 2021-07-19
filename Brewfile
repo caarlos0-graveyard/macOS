@@ -13,7 +13,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "planetscale/tap"
 tap "superfly/tap"
 tap "teamookla/speedtest"
 # YAML Parser
@@ -28,8 +27,6 @@ brew "asciinema"
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Сoncurrent, cache-efficient, and Dockerfile-agnostic builder toolkit
-brew "buildkit"
 # Powerful, enterprise-ready, open source web server with automatic HTTPS
 brew "caddy"
 # GNU internationalization (i18n) and localization (l10n) library
@@ -128,10 +125,6 @@ brew "maven"
 brew "moreutils"
 # Remote terminal application
 brew "mosh"
-# Open source relational database management system
-brew "mysql-client"
-# Fast, highly customisable system info script
-brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Port scanning utility for large networks
@@ -219,7 +212,6 @@ cask "discord"
 cask "docker"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
-cask "font-fira-mono-nerd-font"
 cask "font-inconsolata"
 cask "font-inconsolata-nerd-font"
 # Virtual video-calling space
