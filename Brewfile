@@ -13,6 +13,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "muesli/tap"
 tap "superfly/tap"
 tap "teamookla/speedtest"
 # YAML Parser
@@ -197,6 +198,8 @@ brew "charmbracelet/tap/charm"
 brew "goreleaser/tap/goreleaser-pro"
 # nFPM is a simple, 0-dependencies, deb, rpm and apk packager.
 brew "goreleaser/tap/nfpm"
+# Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
+brew "muesli/tap/markscribe"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # JDK from the Java User Group (JUG)
