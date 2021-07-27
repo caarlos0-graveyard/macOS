@@ -206,12 +206,8 @@ cask "1password"
 cask "adoptopenjdk"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
-# Tool to customize input devices and automate computer systems
-cask "bettertouchtool"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
