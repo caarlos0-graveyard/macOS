@@ -208,7 +208,10 @@ cask "adoptopenjdk"
 cask "airflow"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-cask "beardedspice"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
+# Tool to customize input devices and automate computer systems
+cask "bettertouchtool"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
@@ -264,8 +267,6 @@ cask "sensei"
 cask "signal"
 # Team communication and collaboration software
 cask "slack"
-# Music streaming service
-cask "spotify"
 # Automatically downloads subtitles movies and TV shows
 cask "subtitles"
 # Messaging app with a focus on speed and security
