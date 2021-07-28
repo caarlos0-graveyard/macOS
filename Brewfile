@@ -206,8 +206,6 @@ cask "1password"
 cask "adoptopenjdk"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
-# Tool to flash OS images to SD cards & USB drives
-cask "balenaetcher"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
