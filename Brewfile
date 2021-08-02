@@ -236,6 +236,8 @@ cask "keepingyouawake"
 cask "keybase"
 # Interface for reading and syncing eBooks
 cask "kindle"
+# Music services manager
+cask "lastfm"
 # App to manage software development and track bugs
 cask "linear-linear"
 # Software for Logitech devices
