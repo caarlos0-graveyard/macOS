@@ -29,7 +29,7 @@ brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Powerful, enterprise-ready, open source web server with automatic HTTPS
-brew "caddy"
+brew "caddy", restart_service: true
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
 # Statistics utility to count lines of code
@@ -137,7 +137,7 @@ brew "pinentry-mac"
 # Show ps output as a tree
 brew "pstree"
 # Persistent key-value database, with built-in net interface
-brew "redis"
+brew "redis", restart_service: true
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Static analysis and lint tool, for (ba)sh scripts
