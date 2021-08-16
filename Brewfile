@@ -213,8 +213,6 @@ cask "deckset"
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Official CLI tool for Concourse CI
-cask "fly"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-inconsolata"
