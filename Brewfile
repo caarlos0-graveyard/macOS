@@ -167,7 +167,7 @@ brew "unrar"
 # HTTP load testing tool and library
 brew "vegeta"
 # Vi 'workalike' with many additional features
-brew "vim", link: false
+brew "vim"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
