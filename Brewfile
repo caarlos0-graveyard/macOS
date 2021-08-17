@@ -126,6 +126,8 @@ brew "maven"
 brew "moreutils"
 # Remote terminal application
 brew "mosh"
+# NCurses Disk Usage
+brew "ncdu"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Port scanning utility for large networks
