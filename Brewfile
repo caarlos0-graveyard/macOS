@@ -210,6 +210,8 @@ cask "1password"
 cask "adoptopenjdk"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
