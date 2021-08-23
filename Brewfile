@@ -197,8 +197,6 @@ brew "caarlos0/tap/tt"
 # Manage your Charm account and encrypt/decrypt data
 brew "charmbracelet/tap/charm"
 # Deliver Go binaries as fast and easily as possible
-brew "goreleaser/tap/goreleaser"
-# Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser-pro"
 # nFPM is a simple, 0-dependencies, deb, rpm and apk packager.
 brew "goreleaser/tap/nfpm"
