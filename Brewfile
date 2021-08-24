@@ -1,6 +1,5 @@
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
-tap "chef/chef"
 tap "github/gh"
 tap "golangci/tap"
 tap "goreleaser/tap"
@@ -80,8 +79,6 @@ brew "gnu-sed"
 brew "gnu-tar"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Stricter gofmt
 brew "gofumpt"
 # Fast linters runner for Go
