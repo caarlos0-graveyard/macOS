@@ -209,8 +209,6 @@ cask "adoptopenjdk"
 cask "airflow"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Tool to flash OS images to SD cards & USB drives
-cask "balenaetcher"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
