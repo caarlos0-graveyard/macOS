@@ -133,6 +133,8 @@ brew "neovim"
 brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
+# Apache Parquet command-line tools and utilities
+brew "parquet-tools"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Show ps output as a tree
