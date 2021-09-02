@@ -241,6 +241,8 @@ cask "keepingyouawake"
 cask "keybase"
 # Interface for reading and syncing eBooks
 cask "kindle"
+# GPU-based terminal emulator
+cask "kitty"
 # Music services manager
 cask "lastfm"
 # App to manage software development and track bugs
