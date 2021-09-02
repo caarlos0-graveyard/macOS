@@ -201,6 +201,8 @@ brew "charmbracelet/tap/charm"
 brew "goreleaser/tap/goreleaser-pro"
 # nFPM is a simple, 0-dependencies, deb, rpm and apk packager.
 brew "goreleaser/tap/nfpm"
+# Smart little CLI helper for git projects
+brew "muesli/tap/gitty"
 # Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
 brew "muesli/tap/markscribe"
 # Password manager that keeps all passwords secure behind one password
