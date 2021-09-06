@@ -137,6 +137,8 @@ brew "node"
 brew "parquet-tools"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Tool for managing OCI containers and pods
+brew "podman"
 # Show ps output as a tree
 brew "pstree"
 # Persistent key-value database, with built-in net interface
