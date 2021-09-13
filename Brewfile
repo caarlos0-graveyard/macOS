@@ -175,8 +175,6 @@ brew "vim"
 brew "watch"
 # Internet file retriever
 brew "wget"
-# Library to create, extract, and modify Windows Imaging files
-brew "wimlib"
 # Linter for YAML files
 brew "yamllint"
 # JavaScript package manager
@@ -282,6 +280,8 @@ cask "subtitles"
 cask "telegram"
 # Open-source BitTorrent client
 cask "transmission"
+# Tool to install Linux/BSD distributions to a partition or USB drive
+cask "unetbootin"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
