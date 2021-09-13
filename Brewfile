@@ -175,6 +175,8 @@ brew "vim"
 brew "watch"
 # Internet file retriever
 brew "wget"
+# Library to create, extract, and modify Windows Imaging files
+brew "wimlib"
 # Linter for YAML files
 brew "yamllint"
 # JavaScript package manager
