@@ -215,8 +215,6 @@ cask "adoptopenjdk"
 cask "airflow"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Tool to flash OS images to SD cards & USB drives
-cask "balenaetcher"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
@@ -280,8 +278,6 @@ cask "subtitles"
 cask "telegram"
 # Open-source BitTorrent client
 cask "transmission"
-# Tool to install Linux/BSD distributions to a partition or USB drive
-cask "unetbootin"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
