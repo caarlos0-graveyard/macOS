@@ -1,5 +1,6 @@
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
+tap "get-woke/tap"
 tap "github/gh"
 tap "golangci/tap"
 tap "goreleaser/tap"
@@ -199,6 +200,8 @@ brew "caarlos0/tap/svu"
 brew "caarlos0/tap/tt"
 # Manage your Charm account and encrypt/decrypt data
 brew "charmbracelet/tap/charm"
+# Detect non-inclusive language in your source code.
+brew "get-woke/tap/woke"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser-pro"
 # nFPM is a simple, 0-dependencies, deb, rpm and apk packager.
