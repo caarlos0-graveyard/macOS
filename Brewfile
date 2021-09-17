@@ -227,8 +227,6 @@ cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-inconsolata"
 cask "font-inconsolata-nerd-font"
-# Go (golang) IDE
-cask "goland"
 # Web browser
 cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
