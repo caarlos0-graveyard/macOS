@@ -1,3 +1,4 @@
+tap "buildpacks/tap"
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
 tap "github/gh"
@@ -181,6 +182,8 @@ brew "yamllint"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# A CLI for building apps using Cloud Native Buildpacks
+brew "buildpacks/tap/pack"
 # Clone all repos of a GitHub user or organization
 brew "caarlos0/tap/clone-org"
 # Cleans up old and inactive forks on your github account.
