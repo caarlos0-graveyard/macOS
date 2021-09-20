@@ -2,6 +2,7 @@ tap "buildpacks/tap"
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
 tap "github/gh"
+tap "go-task/tap"
 tap "golangci/tap"
 tap "goreleaser/tap"
 tap "heroku/brew"
@@ -202,6 +203,8 @@ brew "caarlos0/tap/svu"
 brew "caarlos0/tap/tt"
 # Manage your Charm account and encrypt/decrypt data
 brew "charmbracelet/tap/charm"
+# Task runner / simpler Make alternative written in Go
+brew "go-task/tap/go-task"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser-pro"
 # nFPM is a simple, 0-dependencies, deb, rpm and apk packager.
