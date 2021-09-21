@@ -234,6 +234,8 @@ cask "font-inconsolata-nerd-font"
 cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
+# Free and open-source media player
+cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
 # IDE for Java development - community edition
