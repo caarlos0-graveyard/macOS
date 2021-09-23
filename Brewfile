@@ -183,6 +183,8 @@ brew "yamllint"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # A CLI for building apps using Cloud Native Buildpacks
 brew "buildpacks/tap/pack"
 # Clone all repos of a GitHub user or organization
