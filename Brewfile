@@ -274,6 +274,8 @@ cask "postico"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Emoji picker optimized for blind people
+cask "rocket"
 # Monitors the computer system and optimizes its performance
 cask "sensei"
 # Instant messaging application focusing on security
