@@ -83,6 +83,8 @@ brew "gnu-tar"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Cross-platform systems package manager
+brew "gofish"
 # Stricter gofmt
 brew "gofumpt"
 # Fast linters runner for Go
