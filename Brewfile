@@ -82,8 +82,6 @@ brew "hyperfine"
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Tool that can switch between kubectl contexts easily and create aliases
-brew "kubectx"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
 # Remote terminal application
@@ -148,6 +146,8 @@ brew "caarlos0/tap/fork-cleaner"
 brew "caarlos0/tap/gssh"
 # Like gofmt, but for JSON files
 brew "caarlos0/tap/jsonfmt"
+# kubectx and kubens are power tools for kubectl
+brew "caarlos0/tap/kubectx"
 # Semantic Version Utility
 brew "caarlos0/tap/svu"
 # Task Timer (tt) is a dead simple TUI task timer
@@ -195,8 +195,6 @@ cask "keybase"
 cask "kindle"
 # App to manage software development and track bugs
 cask "linear-linear"
-# Software for Logitech devices
-cask "logitech-options"
 # Tool to create text-based art
 cask "monodraw"
 # Reverse proxy, secure introspectable tunnels to localhost
