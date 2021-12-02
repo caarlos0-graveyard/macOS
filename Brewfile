@@ -7,6 +7,7 @@ tap "golangci/tap"
 tap "goreleaser/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
@@ -23,6 +24,10 @@ brew "gettext"
 brew "cmake"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Container Signing
+brew "cosign"
+# Tool for interacting with remote images and registries
+brew "crane"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Command-line DNS client
@@ -69,6 +74,8 @@ brew "grc"
 brew "grep"
 # Kubernetes package manager
 brew "helm"
+# HTML validator written in Go
+brew "htmltest"
 # Improved top (interactive process viewer)
 brew "htop"
 # Curl statistics made simple
@@ -81,6 +88,12 @@ brew "hyperfine"
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Utility to create k3s clusters on any local or remote VM
+brew "k3sup"
+# Build and deploy Go applications on Kubernetes
+brew "ko"
+# Java-based project management
+brew "maven"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
 # Remote terminal application
@@ -93,8 +106,12 @@ brew "neovim"
 brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
+# Development kit for the Java programming language
+brew "openjdk@11"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Distributed SQL query engine for big data
+brew "prestodb"
 # Show ps output as a tree
 brew "pstree"
 # Persistent key-value database, with built-in net interface
@@ -147,6 +164,8 @@ brew "caarlos0/tap/gssh"
 brew "caarlos0/tap/jsonfmt"
 # kubectx and kubens are power tools for kubectl
 brew "caarlos0/tap/kubectx"
+# Get the contributor stats summary from all repos of any given organization
+brew "caarlos0/tap/org-stats"
 # Semantic Version Utility
 brew "caarlos0/tap/svu"
 # Task Timer (tt) is a dead simple TUI task timer
@@ -169,11 +188,15 @@ brew "muesli/tap/gitty"
 cask "1password"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
+# Memory training application
+cask "anki"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Web browser
+cask "firefox"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-inconsolata"
@@ -184,6 +207,8 @@ cask "google-chrome"
 cask "google-cloud-sdk"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
+# IDE for Java development - community edition
+cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Tool to prevent the system from going into sleep mode
@@ -194,12 +219,18 @@ cask "keybase"
 cask "kindle"
 # App to manage software development and track bugs
 cask "linear-linear"
+# Adaptive brightness for external displays
+cask "lunar"
 # Tool to create text-based art
 cask "monodraw"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# GUI client for PostgreSQL databases
+cask "postico"
+# Archive manager for data compression and backups
+cask "rar"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -222,3 +253,5 @@ cask "visual-studio-code"
 cask "vlc"
 # Desktop client for WhatsApp
 cask "whatsapp"
+# Video communication and virtual meeting platform
+cask "zoom"
