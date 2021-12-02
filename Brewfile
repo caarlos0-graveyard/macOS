@@ -16,8 +16,6 @@ tap "muesli/tap"
 brew "ansible"
 # Record and share terminal sessions
 brew "asciinema"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
 # Cross-platform make
@@ -30,12 +28,6 @@ brew "cosign"
 brew "crane"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Command-line DNS client
-brew "dog"
-# Modern replacement for 'ls'
-brew "exa"
-# Simple, fast and user-friendly alternative to find
-brew "fd"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # Play, record, convert, and stream audio and video
@@ -96,14 +88,10 @@ brew "ko"
 brew "moreutils"
 # Remote terminal application
 brew "mosh"
-# NCurses Disk Usage
-brew "ncdu"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
-brew "node"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Show ps output as a tree
@@ -136,24 +124,14 @@ brew "vim"
 brew "watch"
 # Internet file retriever
 brew "wget"
-# Linter for YAML files
-brew "yamllint"
-# JavaScript package manager
-brew "yarn"
-# Download YouTube videos from the command-line
-brew "youtube-dl"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
-# quickly ssh into gcloud instances
-brew "caarlos0/tap/gssh"
 # Like gofmt, but for JSON files
 brew "caarlos0/tap/jsonfmt"
 # kubectx and kubens are power tools for kubectl
 brew "caarlos0/tap/kubectx"
-# Get the contributor stats summary from all repos of any given organization
-brew "caarlos0/tap/org-stats"
 # Semantic Version Utility
 brew "caarlos0/tap/svu"
 # Task Timer (tt) is a dead simple TUI task timer
@@ -175,8 +153,6 @@ cask "airflow"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
-# Web browser
-cask "firefox"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-inconsolata"
@@ -189,10 +165,6 @@ cask "imageoptim"
 cask "iterm2"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
-# End-to-end encryption software
-cask "keybase"
-# Interface for reading and syncing eBooks
-cask "kindle"
 # Adaptive brightness for external displays
 cask "lunar"
 # Tool to create text-based art
