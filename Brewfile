@@ -92,8 +92,6 @@ brew "jq"
 brew "k3sup"
 # Build and deploy Go applications on Kubernetes
 brew "ko"
-# Java-based project management
-brew "maven"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
 # Remote terminal application
@@ -106,12 +104,8 @@ brew "neovim"
 brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
-# Development kit for the Java programming language
-brew "openjdk@11"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
-# Distributed SQL query engine for big data
-brew "prestodb"
 # Show ps output as a tree
 brew "pstree"
 # Persistent key-value database, with built-in net interface
@@ -120,10 +114,6 @@ brew "redis"
 brew "ripgrep"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
-# Tool to work with .snap files
-brew "snap"
-# Package any app for every Linux desktop, server, cloud or device
-brew "snapcraft"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Tail multiple Kubernetes pods & their containers
@@ -154,8 +144,6 @@ brew "yarn"
 brew "youtube-dl"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
-# A CLI for building apps using Cloud Native Buildpacks
-brew "buildpacks/tap/pack"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
 # quickly ssh into gcloud instances
@@ -170,8 +158,6 @@ brew "caarlos0/tap/org-stats"
 brew "caarlos0/tap/svu"
 # Task Timer (tt) is a dead simple TUI task timer
 brew "caarlos0/tap/tt"
-# Manage your Charm account and encrypt/decrypt data
-brew "charmbracelet/tap/charm"
 # Render markdown on the CLI
 brew "charmbracelet/tap/glow"
 # Task runner / simpler Make alternative written in Go
@@ -180,21 +166,15 @@ brew "go-task/tap/go-task"
 brew "golangci/tap/golangci-lint"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser/tap/goreleaser-pro"
-# Disk Usage/Free Utility
-brew "muesli/tap/duf"
 # Smart little CLI helper for git projects
 brew "muesli/tap/gitty"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
-# Memory training application
-cask "anki"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Web browser
 cask "firefox"
 cask "font-fira-code"
@@ -203,12 +183,8 @@ cask "font-inconsolata"
 cask "font-inconsolata-nerd-font"
 # Web browser
 cask "google-chrome"
-# Set of tools to manage resources and applications hosted on Google Cloud
-cask "google-cloud-sdk"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
-# IDE for Java development - community edition
-cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Tool to prevent the system from going into sleep mode
@@ -217,8 +193,6 @@ cask "keepingyouawake"
 cask "keybase"
 # Interface for reading and syncing eBooks
 cask "kindle"
-# App to manage software development and track bugs
-cask "linear-linear"
 # Adaptive brightness for external displays
 cask "lunar"
 # Tool to create text-based art
@@ -227,8 +201,6 @@ cask "monodraw"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
-# GUI client for PostgreSQL databases
-cask "postico"
 # Archive manager for data compression and backups
 cask "rar"
 # Control your tools with a few keystrokes
@@ -253,5 +225,3 @@ cask "visual-studio-code"
 cask "vlc"
 # Desktop client for WhatsApp
 cask "whatsapp"
-# Video communication and virtual meeting platform
-cask "zoom"
