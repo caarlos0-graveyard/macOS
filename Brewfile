@@ -1,3 +1,4 @@
+# vi: ft=ruby
 tap "buildpacks/tap"
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
@@ -19,8 +20,6 @@ tap "sigstore/tap"
 brew "ansible"
 # Record and share terminal sessions
 brew "asciinema"
-# Language Server for Bash
-brew "bash-language-server"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
 # Cross-platform make
@@ -29,12 +28,8 @@ brew "cmake"
 brew "coreutils"
 # Container Signing
 brew "cosign"
-# Tool for interacting with remote images and registries
-brew "crane"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Modern replacement for 'ls'
-brew "exa"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # OpenType text shaping engine
@@ -53,8 +48,6 @@ brew "gawk"
 brew "gh"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
-# Audit git repos for secrets
-brew "gitleaks"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # C code prettifier
@@ -101,10 +94,6 @@ brew "k3sup"
 brew "ko"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
-# Linux virtual machines
-brew "lima"
-# Language Server for the Lua language
-brew "lua-language-server"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
 # Remote terminal application
@@ -123,8 +112,6 @@ brew "redis"
 brew "ripgrep"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
-# SOcket CAT: netcat on steroids
-brew "socat"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Tail multiple Kubernetes pods & their containers
@@ -149,8 +136,6 @@ brew "vegeta"
 brew "watch"
 # Internet file retriever
 brew "wget"
-# Language Server for Yaml Files
-brew "yaml-language-server"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # Seamless ssh-agent for YubiKeys and other PIV tokens
@@ -189,47 +174,29 @@ brew "goreleaser/tap/goreleaser-pro"
 brew "muesli/tap/gitty"
 # Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
 brew "muesli/tap/markscribe"
-# Secure Supply Chain - Transparency Log
-brew "sigstore/tap/rekor-cli"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Application uninstaller
-cask "appcleaner"
-# Web browser focusing on privacy
-cask "brave-browser"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
-# Voice and text chat software
-cask "discord-canary"
 # Web browser
 cask "firefox"
-cask "font-fira-code"
-cask "font-fira-code-nerd-font"
-cask "font-inconsolata"
-cask "font-inconsolata-nerd-font"
 # Web browser
 cask "google-chrome"
 # Free and open-source media player
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # End-to-end encryption software
 cask "keybase"
-# GPU-based terminal emulator
-cask "kitty"
 # Wallet desktop application to maintain multiple cryptocurrencies
 cask "ledger-live"
-# Adaptive brightness for external displays
-cask "lunar"
 # Tool to create text-based art
 cask "monodraw"
 # Reverse proxy, secure introspectable tunnels to localhost
@@ -258,8 +225,6 @@ cask "telegram"
 cask "transmission"
 # Multimedia player
 cask "vlc"
-# GPU-accelerated cross-platform terminal emulator and multiplexer
-cask "wezterm"
 # Desktop client for WhatsApp
 cask "whatsapp-beta"
 # Application for configuring any YubiKey
