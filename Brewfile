@@ -9,13 +9,18 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "muesli/tap"
+tap "samuelmeuli/tap"
+tap "sigstore/tap"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Record and share terminal sessions
 brew "asciinema"
+# Language Server for Bash
+brew "bash-language-server"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
 # Cross-platform make
@@ -28,8 +33,12 @@ brew "cosign"
 brew "crane"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Modern replacement for 'ls'
+brew "exa"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
@@ -44,6 +53,8 @@ brew "gawk"
 brew "gh"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Audit git repos for secrets
+brew "gitleaks"
 # Command-line option parsing utility
 brew "gnu-getopt"
 # C code prettifier
@@ -58,6 +69,8 @@ brew "gnupg"
 brew "go"
 # Stricter gofmt
 brew "gofumpt"
+# Slightly more awesome Standard Unix Password Manager for Teams
+brew "gopass"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Colorize logfiles and command output
@@ -78,18 +91,26 @@ brew "hugo"
 brew "hyperfine"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Calculate various network masks, etc. from a given IP address
+brew "ipcalc"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Utility to create k3s clusters on any local or remote VM
 brew "k3sup"
 # Build and deploy Go applications on Kubernetes
 brew "ko"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Linux virtual machines
+brew "lima"
+# Language Server for the Lua language
+brew "lua-language-server"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
 # Remote terminal application
 brew "mosh"
 # Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
+brew "neovim", args: ["HEAD"]
 # Port scanning utility for large networks
 brew "nmap"
 # Pinentry for GPG on Mac
@@ -102,10 +123,14 @@ brew "redis"
 brew "ripgrep"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# SOcket CAT: netcat on steroids
+brew "socat"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Tail multiple Kubernetes pods & their containers
 brew "stern"
+# Opinionated Lua code formatter
+brew "stylua"
 # User interface to the TELNET protocol
 brew "telnet"
 # Tool to build, change, and version infrastructure
@@ -116,14 +141,20 @@ brew "tldr"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# CLI time zone visualizer
+brew "tz"
 # HTTP load testing tool and library
 brew "vegeta"
-# Vi 'workalike' with many additional features
-brew "vim"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
 brew "wget"
+# Language Server for Yaml Files
+brew "yaml-language-server"
+# Tool for managing your YubiKey configuration
+brew "ykman"
+# Seamless ssh-agent for YubiKeys and other PIV tokens
+brew "yubikey-agent", restart_service: true
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Cleans up old and inactive forks on your github account.
@@ -134,10 +165,20 @@ brew "caarlos0/tap/jsonfmt"
 brew "caarlos0/tap/kubectx"
 # Semantic Version Utility
 brew "caarlos0/tap/svu"
+# Timer is like sleep, but reports progress.
+brew "caarlos0/tap/timer"
 # Task Timer (tt) is a dead simple TUI task timer
 brew "caarlos0/tap/tt"
+# The Charm Tool and Library 🌟
+brew "charmbracelet/tap/charm"
 # Render markdown on the CLI
 brew "charmbracelet/tap/glow"
+# Backup and restore SSH keys as mnemonic set of words
+brew "charmbracelet/tap/melt"
+# A personal key value store 🛼
+brew "charmbracelet/tap/skate"
+# The SSH directory
+brew "charmbracelet/tap/wishlist"
 # Task runner / simpler Make alternative written in Go
 brew "go-task/tap/go-task"
 # Fast linters runner for Go.
@@ -146,25 +187,47 @@ brew "golangci/tap/golangci-lint"
 brew "goreleaser/tap/goreleaser-pro"
 # Smart little CLI helper for git projects
 brew "muesli/tap/gitty"
+# Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
+brew "muesli/tap/markscribe"
+# Secure Supply Chain - Transparency Log
+brew "sigstore/tap/rekor-cli"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
+# GPU-accelerated terminal emulator
+cask "alacritty"
+# Application uninstaller
+cask "appcleaner"
+# Web browser focusing on privacy
+cask "brave-browser"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
+# Voice and text chat software
+cask "discord-canary"
+# Web browser
+cask "firefox"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-inconsolata"
 cask "font-inconsolata-nerd-font"
 # Web browser
 cask "google-chrome"
+# Free and open-source media player
+cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
+# End-to-end encryption software
+cask "keybase"
+# GPU-based terminal emulator
+cask "kitty"
+# Wallet desktop application to maintain multiple cryptocurrencies
+cask "ledger-live"
 # Adaptive brightness for external displays
 cask "lunar"
 # Tool to create text-based art
@@ -173,6 +236,8 @@ cask "monodraw"
 cask "ngrok"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# GUI client for PostgreSQL databases
+cask "postico"
 # Archive manager for data compression and backups
 cask "rar"
 # Control your tools with a few keystrokes
@@ -191,9 +256,13 @@ cask "subtitles"
 cask "telegram"
 # Open-source BitTorrent client
 cask "transmission"
-# Open-source code editor
-cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
 # Desktop client for WhatsApp
-cask "whatsapp"
+cask "whatsapp-beta"
+# Application for configuring any YubiKey
+cask "yubico-yubikey-manager"
+# Video communication and virtual meeting platform
+cask "zoom"
