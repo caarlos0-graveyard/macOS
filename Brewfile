@@ -1,4 +1,3 @@
-# vi: ft=ruby
 tap "buildpacks/tap"
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
@@ -88,16 +87,10 @@ brew "imagemagick"
 brew "ipcalc"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Utility to create k3s clusters on any local or remote VM
-brew "k3sup"
-# Build and deploy Go applications on Kubernetes
-brew "ko"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
-# Remote terminal application
-brew "mosh"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim", args: ["HEAD"]
 # Port scanning utility for large networks
@@ -114,8 +107,6 @@ brew "ripgrep"
 brew "shellcheck"
 # Cross-shell prompt for astronauts
 brew "starship"
-# Tail multiple Kubernetes pods & their containers
-brew "stern"
 # Opinionated Lua code formatter
 brew "stylua"
 # User interface to the TELNET protocol
@@ -140,8 +131,6 @@ brew "wget"
 brew "ykman"
 # Seamless ssh-agent for YubiKeys and other PIV tokens
 brew "yubikey-agent", restart_service: true
-# Shell extension to navigate your filesystem faster
-brew "zoxide"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
 # Like gofmt, but for JSON files
