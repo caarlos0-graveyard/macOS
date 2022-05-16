@@ -63,6 +63,8 @@ brew "go"
 brew "gofumpt"
 # Slightly more awesome Standard Unix Password Manager for Teams
 brew "gopass"
+# Version Control Visualization Tool
+brew "gource"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Colorize logfiles and command output
@@ -92,9 +94,11 @@ brew "kubernetes-cli"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
 # Ambitious Vim-fork focused on extensibility and agility
-brew "neovim", args: ["HEAD"]
+brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
+# Platform built on V8 to build network applications
+brew "node"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Show ps output as a tree
@@ -147,7 +151,7 @@ brew "caarlos0/tap/tt"
 brew "charmbracelet/tap/charm"
 # Render markdown on the CLI
 brew "charmbracelet/tap/glow"
-# Backup and restore SSH keys as mnemonic set of words
+# Backup and restore Ed25519 SSH keys with seed words
 brew "charmbracelet/tap/melt"
 # A personal key value store 🛼
 brew "charmbracelet/tap/skate"
@@ -169,6 +173,10 @@ cask "1password"
 cask "airflow"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Virtual Audio Driver
+cask "blackhole-2ch"
+# Screen capturing tool
+cask "cleanshot"
 cask "deckset"
 # Voice and text chat software
 cask "discord"
