@@ -1,3 +1,4 @@
+tap "bensadeh/despell"
 tap "buildpacks/tap"
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
@@ -13,12 +14,19 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "muesli/tap"
+tap "perkons/sshpass"
 tap "samuelmeuli/tap"
 tap "sigstore/tap"
+# Simple, modern, secure file encryption
+brew "age"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Record and share terminal sessions
 brew "asciinema"
+# Automatically restart SSH sessions and tunnels
+brew "autossh"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
 # Cross-platform make
@@ -29,6 +37,10 @@ brew "coreutils"
 brew "cosign"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Modern replacement for 'ls'
+brew "exa"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # OpenType text shaping engine
@@ -65,6 +77,8 @@ brew "gofumpt"
 brew "gopass"
 # Version Control Visualization Tool
 brew "gource"
+# Ping, but with a graph
+brew "gping"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Colorize logfiles and command output
@@ -89,6 +103,8 @@ brew "imagemagick"
 brew "ipcalc"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Tool that can switch between kubectl contexts easily and create aliases
+brew "kubectx"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
 # Collection of tools that nobody wrote when UNIX was young
@@ -111,6 +127,8 @@ brew "ripgrep"
 brew "shellcheck"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Tail multiple Kubernetes pods & their containers
+brew "stern"
 # Opinionated Lua code formatter
 brew "stylua"
 # User interface to the TELNET protocol
@@ -123,6 +141,8 @@ brew "tldr"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Command-line tool for sharing terminal over the web
+brew "ttyd"
 # CLI time zone visualizer
 brew "tz"
 # HTTP load testing tool and library
@@ -134,13 +154,15 @@ brew "wget"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # Seamless ssh-agent for YubiKeys and other PIV tokens
-brew "yubikey-agent", restart_service: true
+brew "yubikey-agent"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# despell puts icons in tmux's statusline
+brew "bensadeh/despell/despell"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
 # Like gofmt, but for JSON files
 brew "caarlos0/tap/jsonfmt"
-# kubectx and kubens are power tools for kubectl
-brew "caarlos0/tap/kubectx"
 # Semantic Version Utility
 brew "caarlos0/tap/svu"
 # Timer is like sleep, but reports progress.
@@ -151,6 +173,8 @@ brew "caarlos0/tap/tt"
 brew "charmbracelet/tap/charm"
 # Render markdown on the CLI
 brew "charmbracelet/tap/glow"
+# A tool for glamorous shell scripts
+brew "charmbracelet/tap/gum"
 # Backup and restore Ed25519 SSH keys with seed words
 brew "charmbracelet/tap/melt"
 # A personal key value store 🛼
@@ -167,14 +191,20 @@ brew "goreleaser/tap/goreleaser-pro"
 brew "muesli/tap/gitty"
 # Your personal markdown scribe with template-engine and Git(Hub) & RSS powers
 brew "muesli/tap/markscribe"
+# Tool for non-interactivly performing password authentication with SSH
+brew "perkons/sshpass/sshpass"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Watch local content on Apple TV and Chromecast
 cask "airflow"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Automatic tiling window manager similar to xmonad
+cask "amethyst"
 # Virtual Audio Driver
 cask "blackhole-2ch"
+# Web browser focusing on privacy
+cask "brave-browser"
 # Screen capturing tool
 cask "cleanshot"
 cask "deckset"
@@ -182,6 +212,8 @@ cask "deckset"
 cask "discord"
 # Web browser
 cask "firefox"
+cask "font-inconsolata"
+cask "font-inconsolata-nerd-font"
 # Web browser
 cask "google-chrome"
 # Free and open-source media player
@@ -192,6 +224,8 @@ cask "imageoptim"
 cask "keepingyouawake"
 # End-to-end encryption software
 cask "keybase"
+# GPU-based terminal emulator
+cask "kitty"
 # Wallet desktop application to maintain multiple cryptocurrencies
 cask "ledger-live"
 # Tool to create text-based art
@@ -222,6 +256,8 @@ cask "telegram"
 cask "transmission"
 # Multimedia player
 cask "vlc"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
 # Desktop client for WhatsApp
 cask "whatsapp-beta"
 # Application for configuring any YubiKey
