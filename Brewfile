@@ -1,4 +1,3 @@
-tap "bensadeh/despell"
 tap "buildpacks/tap"
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
@@ -23,8 +22,6 @@ brew "age"
 brew "ansible"
 # Record and share terminal sessions
 brew "asciinema"
-# Automatically restart SSH sessions and tunnels
-brew "autossh"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # GNU internationalization (i18n) and localization (l10n) library
@@ -157,8 +154,6 @@ brew "ykman"
 brew "yubikey-agent"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
-# despell puts icons in tmux's statusline
-brew "bensadeh/despell/despell"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
 # Like gofmt, but for JSON files
@@ -203,8 +198,6 @@ cask "alacritty"
 cask "amethyst"
 # Virtual Audio Driver
 cask "blackhole-2ch"
-# Web browser focusing on privacy
-cask "brave-browser"
 # Screen capturing tool
 cask "cleanshot"
 cask "deckset"
@@ -212,8 +205,6 @@ cask "deckset"
 cask "discord"
 # Web browser
 cask "firefox"
-cask "font-inconsolata"
-cask "font-inconsolata-nerd-font"
 # Web browser
 cask "google-chrome"
 # Free and open-source media player
@@ -240,8 +231,6 @@ cask "postico"
 cask "rar"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Move and resize windows using keyboard shortcuts or snap areas
-cask "rectangle"
 # Monitors the computer system and optimizes its performance
 cask "sensei"
 # Instant messaging application focusing on security
@@ -256,8 +245,6 @@ cask "telegram"
 cask "transmission"
 # Multimedia player
 cask "vlc"
-# GPU-accelerated cross-platform terminal emulator and multiplexer
-cask "wezterm"
 # Desktop client for WhatsApp
 cask "whatsapp-beta"
 # Application for configuring any YubiKey
