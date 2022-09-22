@@ -1,3 +1,5 @@
+# vim: set ft=ruby
+
 tap "buildpacks/tap"
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
