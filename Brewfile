@@ -1,5 +1,3 @@
-# vim: set ft=ruby
-
 tap "buildpacks/tap"
 tap "caarlos0/tap"
 tap "charmbracelet/tap"
@@ -14,7 +12,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "koekeishiya/formulae"
 tap "muesli/tap"
 tap "perkons/sshpass"
 tap "samuelmeuli/tap"
@@ -97,8 +94,6 @@ brew "httpstat"
 brew "hugo"
 # Command-line benchmarking tool
 brew "hyperfine"
-# Display an interface's bandwidth usage
-brew "iftop"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Calculate various network masks, etc. from a given IP address
@@ -125,8 +120,6 @@ brew "pstree"
 brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Easily detect and prevent bugs and anti-patterns in your codebase
-brew "semgrep"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Cross-shell prompt for astronauts
