@@ -12,6 +12,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "koekeishiya/formulae"
 tap "muesli/tap"
 tap "perkons/sshpass"
 tap "samuelmeuli/tap"
@@ -94,6 +95,8 @@ brew "httpstat"
 brew "hugo"
 # Command-line benchmarking tool
 brew "hyperfine"
+# Display an interface's bandwidth usage
+brew "iftop"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Calculate various network masks, etc. from a given IP address
@@ -120,6 +123,8 @@ brew "pstree"
 brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Easily detect and prevent bugs and anti-patterns in your codebase
+brew "semgrep"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Cross-shell prompt for astronauts
@@ -200,6 +205,7 @@ cask "amethyst"
 cask "blackhole-2ch"
 # Screen capturing tool
 cask "cleanshot"
+# Presentations from Markdown
 cask "deckset"
 # Voice and text chat software
 cask "discord"
@@ -229,8 +235,6 @@ cask "notion"
 cask "postico"
 # Archive manager for data compression and backups
 cask "rar"
-# Control your tools with a few keystrokes
-cask "raycast"
 # Monitors the computer system and optimizes its performance
 cask "sensei"
 # Instant messaging application focusing on security
