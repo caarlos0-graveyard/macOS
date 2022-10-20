@@ -146,8 +146,6 @@ brew "ttyd"
 brew "tz"
 # HTTP load testing tool and library
 brew "vegeta"
-# Sends magic packets to wake up network-devices
-brew "wakeonlan"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
