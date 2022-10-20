@@ -82,6 +82,8 @@ brew "graphviz"
 brew "grc"
 # GNU grep, egrep and fgrep
 brew "grep"
+# Post-modern modal text editor
+brew "helix"
 # Kubernetes package manager
 brew "helm"
 # HTML validator written in Go
@@ -144,6 +146,8 @@ brew "ttyd"
 brew "tz"
 # HTTP load testing tool and library
 brew "vegeta"
+# Sends magic packets to wake up network-devices
+brew "wakeonlan"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
@@ -200,6 +204,8 @@ cask "amethyst"
 cask "blackhole-2ch"
 # Screen capturing tool
 cask "cleanshot"
+# API documentation browser and code snippet manager
+cask "dash5"
 # Presentations from Markdown
 cask "deckset"
 # Voice and text chat software
@@ -230,6 +236,8 @@ cask "notion"
 cask "postico"
 # Archive manager for data compression and backups
 cask "rar"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # Monitors the computer system and optimizes its performance
 cask "sensei"
 # Instant messaging application focusing on security
