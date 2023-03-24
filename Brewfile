@@ -15,6 +15,7 @@ tap "homebrew/services"
 tap "muesli/tap"
 tap "perkons/sshpass"
 tap "samuelmeuli/tap"
+tap "shaunsingh/sfmono-nerd-font-ligaturized"
 tap "sigstore/tap"
 # Simple, modern, secure file encryption
 brew "age"
@@ -70,16 +71,12 @@ brew "gnupg"
 brew "go"
 # Stricter gofmt
 brew "gofumpt"
-# Slightly more awesome Standard Unix Password Manager for Teams
-brew "gopass"
 # Version Control Visualization Tool
 brew "gource"
 # Ping, but with a graph
 brew "gping"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
-# Colorize logfiles and command output
-brew "grc"
 # GNU grep, egrep and fgrep
 brew "grep"
 # Post-modern modal text editor
@@ -122,6 +119,8 @@ brew "pstree"
 brew "redis"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# 7-Zip is a file archiver with a high compression ratio
+brew "sevenzip"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Cross-shell prompt for astronauts
@@ -156,6 +155,8 @@ brew "ykman"
 brew "yubikey-agent"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Apple Music Rich Presence for Discord
+brew "caarlos0/tap/discord-applemusic-rich-presence"
 # Cleans up old and inactive forks on your github account.
 brew "caarlos0/tap/fork-cleaner"
 # Like gofmt, but for JSON files
@@ -168,7 +169,7 @@ brew "caarlos0/tap/timer"
 brew "caarlos0/tap/tt"
 # The Charm Tool and Library 🌟
 brew "charmbracelet/tap/charm"
-# Render markdown on the CLI
+# Render markdown on the CLI, with pizzazz! 💅🏻
 brew "charmbracelet/tap/glow"
 # A tool for glamorous shell scripts
 brew "charmbracelet/tap/gum"
@@ -210,14 +211,18 @@ cask "deckset"
 cask "discord"
 # Web browser
 cask "firefox"
+# Developer targeted fonts with a high number of glyphs
+cask "font-jetbrains-mono-nerd-font"
+# Monospaced variant of "San Francisco" by Apple
+cask "font-sf-mono"
+# Apple's SF Mono font patched with the Nerd Fonts patcher for Powerline support
+cask "font-sf-mono-for-powerline"
 # Web browser
 cask "google-chrome"
 # Free and open-source media player
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
-# Tool to prevent the system from going into sleep mode
-cask "keepingyouawake"
 # End-to-end encryption software
 cask "keybase"
 # GPU-based terminal emulator
@@ -242,6 +247,8 @@ cask "sensei"
 cask "signal"
 # Team communication and collaboration software
 cask "slack"
+# Notepad with a built-in calculator
+cask "soulver"
 # Automatically downloads subtitles movies and TV shows
 cask "subtitles"
 # Messaging app with a focus on speed and security
